@@ -1,0 +1,48 @@
+{
+    "version": "82.0.4076.0-r745840",
+    "description": "Browser aiming for safer, faster, and more stable way for all users to experience the web.",
+    "license": "BSD-3-Clause",
+    "homepage": "https://www.chromium.org",
+    "architecture": {
+        "64bit": {
+            "url": "https://storage.googleapis.com/chromium-browser-snapshots/Win_x64/745840/chrome-win.zip",
+            "hash": "596bdf426bf61be182923745c7ece43ef1a7a05ec1cde9b23b78d49ecfe1782f",
+            "extract_dir": "chrome-win"
+        },
+        "32bit": {
+            "url": "https://storage.googleapis.com/chromium-browser-snapshots/Win/745840/chrome-win.zip",
+            "hash": "060e15a5f239e3f75f1dfd7aa320fbb438ccf1c06b85f1a40960617b0de71fa0",
+            "extract_dir": "chrome-win"
+        }
+    },
+    "bin": [
+        "chrome.exe",
+        [
+            "chrome.exe",
+            "chromium"
+        ]
+    ],
+    "shortcuts": [
+        [
+            "chrome.exe",
+            "Chromium (offficial-dev)"
+        ]
+    ],
+    "checkver": {
+        "url": "https://chromium.woolyss.com/api/v3/?os=windows&bit=64&out=string",
+        "regex": "version=(?<version>[\\d\\.]+);revision=(?<revision>[\\d]+)",
+        "replace": "${version}-r${revision}"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://storage.googleapis.com/chromium-browser-snapshots/Win_x64/$matchRevision/chrome-win.zip",
+                "extract_dir": "chrome-win"
+            },
+            "32bit": {
+                "url": "https://storage.googleapis.com/chromium-browser-snapshots/Win/$matchRevision/chrome-win.zip",
+                "extract_dir": "chrome-win"
+            }
+        }
+    }
+}
