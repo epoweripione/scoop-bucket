@@ -1,0 +1,32 @@
+{
+    "version": "10.2.7.778",
+    "description": "Free Registry Cleaner and Optimizer",
+    "license": "https://www.wisecleaner.com",
+    "homepage": "https://www.wisecleaner.com",
+    "architecture": {
+        "64bit": {
+            "url": "http://downloads.wisecleaner.com/soft/WDCFree_10.2.7.778.zip",
+            "hash": "70ced7db888096ba2222498aeb77fd2285a2435ec67fde4aa6a0b8ee4252791b",
+            "extract_dir": "Wise Disk Cleaner"
+        }
+    },
+    "bin": "WiseDiskCleaner.exe",
+    "shortcuts": [
+        [
+            "WiseDiskCleaner.exe",
+            "Wise Disk Cleaner"
+        ]
+    ],
+    "checkver": {
+        "url": "https://www.wisecleaner.com/download.html",
+        "regex": "WDCFree_(?<version>[\\d\\.]+)\\.zip"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "http://downloads.wisecleaner.com/soft/WDCFree_$version.zip",
+                "extract_dir": "Wise Disk Cleaner"
+            }
+        }
+    }
+}

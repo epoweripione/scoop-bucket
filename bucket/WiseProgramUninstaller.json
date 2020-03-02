@@ -1,0 +1,32 @@
+{
+    "version": "2.3.7.141",
+    "description": "Free Software/Program Uninstaller",
+    "license": "https://www.wisecleaner.com",
+    "homepage": "https://www.wisecleaner.com",
+    "architecture": {
+        "64bit": {
+            "url": "http://downloads.wisecleaner.com/soft/WPU_2.3.7.141.zip",
+            "hash": "3c2ced1a9520000d00fdc6cdade526954c42f2bce401332be8cc0b0ff401a6e5",
+            "extract_dir": "Wise Program Uninstaller"
+        }
+    },
+    "bin": "WiseProgramUninstaller.exe",
+    "shortcuts": [
+        [
+            "WiseProgramUninstaller.exe",
+            "Wise Program Uninstaller"
+        ]
+    ],
+    "checkver": {
+        "url": "https://www.wisecleaner.com/download.html",
+        "regex": "WPU_(?<version>[\\d\\.]+)\\.zip"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "http://downloads.wisecleaner.com/soft/WPU_$version.zip",
+                "extract_dir": "Wise Program Uninstaller"
+            }
+        }
+    }
+}

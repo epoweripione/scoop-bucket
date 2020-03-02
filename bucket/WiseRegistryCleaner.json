@@ -1,0 +1,32 @@
+{
+    "version": "10.2.9.689",
+    "description": "Free Registry Cleaner and Optimizer",
+    "license": "https://www.wisecleaner.com",
+    "homepage": "https://www.wisecleaner.com",
+    "architecture": {
+        "64bit": {
+            "url": "http://downloads.wisecleaner.com/soft/WRCFree_10.2.9.689.zip",
+            "hash": "93788b4243495c7d2de502dbcdf2f646ef356d43b682d3a9a6636ac5aaaa8012",
+            "extract_dir": "Wise Registry Cleaner"
+        }
+    },
+    "bin": "WiseRegistryCleaner.exe",
+    "shortcuts": [
+        [
+            "WiseRegistryCleaner.exe",
+            "Wise Registry Cleaner"
+        ]
+    ],
+    "checkver": {
+        "url": "https://www.wisecleaner.com/download.html",
+        "regex": "WRCFree_(?<version>[\\d\\.]+)\\.zip"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "http://downloads.wisecleaner.com/soft/WRCFree_$version.zip",
+                "extract_dir": "Wise Registry Cleaner"
+            }
+        }
+    }
+}
