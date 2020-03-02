@@ -10,10 +10,10 @@
             "extract_dir": "Wise Registry Cleaner"
         }
     },
-    "bin": "WiseRegistryCleaner.exe",
+    "bin": "WiseRegCleaner.exe",
     "shortcuts": [
         [
-            "WiseRegistryCleaner.exe",
+            "WiseRegCleaner.exe",
             "Wise Registry Cleaner"
         ]
     ],
