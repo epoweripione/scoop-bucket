@@ -6,7 +6,7 @@
     "architecture": {
         "64bit": {
             "url": "https://github.com/RobRich999/Chromium_Clang/releases/download/v82.0.4076.0-r746049-win64/chrome.zip",
-            "hash": "sha1:05a97ae4d97539ae2e00777b93f2feb2442253b1",
+            "hash": "sha1:fdd4dec745bcdaecdbd305b74809f65c98a790df",
             "extract_dir": "chrome-win32"
         }
     },
@@ -34,7 +34,7 @@
                 "url": "https://github.com/RobRich999/Chromium_Clang/releases/download/v$version-win64/chrome.zip",
                 "extract_dir": "chrome-win32",
                 "hash": {
-                    "url": "https://api.github.com/repos/RobRich999/Chromium_Clang/releases/latest",
+                    "url": "https://github.com/RobRich999/Chromium_Clang/releases/tag/v$version-win64",
                     "regex": "chrome\\.zip\\s\\-\\s([a-fA-F0-9]{40})"
                 }
             }

@@ -15,7 +15,7 @@
         ]
     ],
     "post_install": [
-        "git clone --depth=1 https://codeload.github.com/nonwill/nwDeployed $dir\\nwDeployed",
+        "git clone --depth=1 https://github.com/nonwill/nwDeployed $dir\\nwDeployed",
         "Copy-Item -Path \"$dir\\nwDeployed\\bin5_x64_msvc\\*\" -Destination \"$dir\" -Recurse -Force -Confirm:$false"
     ],
     "checkver": {
