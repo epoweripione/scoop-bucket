@@ -16,10 +16,9 @@
         }
     },
     "bin": [
-        "chrome.exe",
         [
             "chrome.exe",
-            "chromium"
+            "chromium-dev"
         ]
     ],
     "shortcuts": [

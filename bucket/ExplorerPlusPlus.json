@@ -24,13 +24,25 @@
             ]
         }
     },
-    "bin": "Explorer++.exe",
-    "persist": "config.xml",
+    "bin": [
+        "Explorer++.exe",
+        [
+            "Explorer++.exe",
+            "ExplorerPlusPlus",
+            "--enable-plugins"
+        ]
+    ],
     "shortcuts": [
         [
             "Explorer++.exe",
-            "Explorer++"
+            "Explorer++",
+            "--enable-plugins"
         ]
+    ],
+    "post_install": [
+        "git clone --depth=1 https://github.com/derceg/explorerplusplus $dir\\explorerplusplus",
+        "Copy-Item -Path \"$dir\\explorerplusplus\\plugins\" -Destination \"$dir\" -Recurse -Force -Confirm:$false",
+        "Remove-Item -Path \"$dir\\explorerplusplus\" -Recurse -Force -Confirm:$false"
     ],
     "checkver": {
         "url": "https://api.github.com/repos/epoweripione/explorerplusplus/releases/latest",
