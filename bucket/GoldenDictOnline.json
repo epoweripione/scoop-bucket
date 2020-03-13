@@ -1,7 +1,7 @@
 {
     "homepage": "https://sourceforge.net/projects/goldendict/",
     "description": "A feature-rich dictionary lookup program.",
-    "notes": "Modified by nonwill, https://github.com/nonwill/nonwill.github.io/wiki/GoldenDict-Online",
+    "notes": "Modified by nonwill, https://nonwill.github.io/post/goldendict/",
     "version": "2020.03.01",
     "license": "",
     "url": "https://forum.freemdict.com/uploads/short-url/jmUhdxLxwbTOVTmYLwEyUCA1qzx.7z",
@@ -14,6 +14,7 @@
             "GoldenDict"
         ]
     ],
+    "persist": "portable",
     "post_install": [
         "git clone --depth=1 https://github.com/nonwill/nwDeployed $dir\\nwDeployed",
         "Copy-Item -Path \"$dir\\nwDeployed\\bin5_x64_msvc\\*\" -Destination \"$dir\" -Recurse -Force -Confirm:$false",

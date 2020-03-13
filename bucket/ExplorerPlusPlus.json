@@ -1,26 +1,26 @@
 {
     "homepage": "https://explorerplusplus.com/",
-    "version": "1.4.0.1527",
+    "version": "1.4.0.1531",
     "license": "freeware",
     "architecture": {
         "64bit": {
             "url": [
-                "https://github.com/epoweripione/explorerplusplus/releases/download/v1.4.0.1527-win64/explorer._x64.zip",
-                "https://github.com/epoweripione/explorerplusplus/releases/download/v1.4.0.1527-win64/explorer._translations.zip"
+                "https://github.com/epoweripione/explorerplusplus/releases/download/v1.4.0.1531-win64/explorer._x64.zip",
+                "https://github.com/epoweripione/explorerplusplus/releases/download/v1.4.0.1531-win64/explorer._translations.zip"
             ],
             "hash": [
-                "78ae791c41bdba6fbac08f8ba2d520cac57aaa6c65f705ff61557a4639b00ea2",
-                "5a003af304c5dbe64f85cda66daa431ead5b78d0e2d1ce799013dd5292724774"
+                "0abbbcf77f7ae280d0667ac82a0aec399f032bdf63a3be1250d5ff35ffe1f56c",
+                "4e35e5a17133f2be214e7c3fdb0a54c4533988c1f45075b979bb75eb38af63db"
             ]
         },
         "32bit": {
             "url": [
-                "https://github.com/epoweripione/explorerplusplus/releases/download/v1.4.0.1527-win32/explorer._x86.zip",
-                "https://github.com/epoweripione/explorerplusplus/releases/download/v1.4.0.1527-win32/explorer._translations.zip"
+                "https://github.com/epoweripione/explorerplusplus/releases/download/v1.4.0.1531-win32/explorer._x86.zip",
+                "https://github.com/epoweripione/explorerplusplus/releases/download/v1.4.0.1531-win32/explorer._translations.zip"
             ],
             "hash": [
-                "292bfc0ee5ac80615bf4d808f6f818494b03ece66c58b14dbc81f930d07c7cb3",
-                "5aee530002a363f99c038baeb3fa89511f613fc11fa491b8104cd11adf7102cb"
+                "df88dc3ba72f2f2024d3a721ab425bca0f672eab7495249f3cc5505ed3ab556e",
+                "f7fb33b7df574060561e2b329931b2090b59b98abae66d2ab323d33474dd0919"
             ]
         }
     },
