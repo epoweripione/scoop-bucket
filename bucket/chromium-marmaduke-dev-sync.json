@@ -24,7 +24,7 @@
         "64bit": {
             "url": "https://github.com/macchrome/chromium/releases/download/v83.0.4086.0-r750130-Win64/Chrome-bin-sync.7z",
             "hash": "48df117437554f994c55b15b9171ae44401912385392700662d7b430ef3c5f93",
-            "extract_dir": "Chrome-bin"
+            "extract_dir": "Chrome-bin-sync"
         }
     },
     "autoupdate": {
