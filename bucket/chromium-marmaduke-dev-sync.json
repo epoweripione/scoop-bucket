@@ -1,0 +1,37 @@
+{
+    "version": "83.0.4086.0-r750130",
+    "description": "An open-source browser project that aims to build a safer, faster, and more stable way for all users to experience the web.",
+    "license": "BSD-3-Clause",
+    "homepage": "https://www.chromium.org",
+    "checkver": {
+        "url": "https://chromium.woolyss.com/api/v3/?os=windows&bit=64&type=dev-codecs-sync&out=json",
+        "jsonpath": "$.chromium.windows.download",
+        "regex": "v([\\d.]+-r\\d+)-Win64"
+    },
+    "bin": [
+        [
+            "chrome.exe",
+            "chromium-dev"
+        ]
+    ],
+    "shortcuts": [
+        [
+            "chrome.exe",
+            "Chromium (Marmaduke-dev-sync)"
+        ]
+    ],
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/macchrome/chromium/releases/download/v83.0.4086.0-r750130-Win64/Chrome-bin-sync.7z",
+            "hash": "48df117437554f994c55b15b9171ae44401912385392700662d7b430ef3c5f93",
+            "extract_dir": "Chrome-bin"
+        }
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/macchrome/chromium/releases/download/v$version-Win64/Chrome-bin-sync.7z"
+            }
+        }
+    }
+}
