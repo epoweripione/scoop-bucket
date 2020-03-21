@@ -2,18 +2,13 @@
     "homepage": "https://sourceforge.net/projects/goldendict/",
     "description": "A feature-rich dictionary lookup program.",
     "notes": "Modified by nonwill, https://nonwill.github.io/post/goldendict/",
-    "version": "2020.03.01",
-    "license": "",
+    "version": "2020.03.18",
+    "license": "freeware",
     "url": "https://forum.freemdict.com/uploads/short-url/jmUhdxLxwbTOVTmYLwEyUCA1qzx.7z",
     "hash": "789659e6ca8f05bcee6c318861b048ee25b3765c95fa2ca7e2c5d506073cb64d",
     "extract_dir": "",
     "bin": "GoldenDict.exe",
-    "shortcuts": [
-        [
-            "GoldenDict.exe",
-            "GoldenDict"
-        ]
-    ],
+    "shortcuts": [["GoldenDict.exe", "GoldenDict"]],
     "persist": "portable",
     "post_install": [
         "git clone --depth=1 https://github.com/nonwill/nwDeployed $dir\\nwDeployed",
