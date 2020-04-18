@@ -1,0 +1,20 @@
+{
+    "homepage": "https://tim.qq.com/",
+    "description": "TIM by Tencent",
+    "license": "Commercial",
+    "version": "3.0.0.21315",
+    "url": "http://dldir1.qq.com/qqfile/qq/TIM3.0.0/TIM3.0.0.21315.exe",
+    "hash": "275995dd686750697718cdcf4413588c1d2ad6ef49e58f1754ffe92e069889bb",
+    "installer": {
+        "script": [
+            "Start-Process -FilePath \"$dir\\$fname\" -Verb RunAs | Wait-Process"
+        ]
+    },
+    "checkver": {
+        "url": "https://tim.qq.com/download.html",
+        "regex": "TIM(?<version>[\\d.]+)\\.exe"
+    },
+    "autoupdate": {
+        "url": "http://dldir1.qq.com/qqfile/qq/TIM$majorVersion.$minorVersion.$patchVersion/TIM$version.exe"
+    }
+}

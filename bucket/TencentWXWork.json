@@ -1,0 +1,20 @@
+{
+    "homepage": "https://weixin.qq.com/",
+    "description": "Wechat Work by Tencent",
+    "license": "Commercial",
+    "version": "3.0.16",
+    "url": "https://work.weixin.qq.com/wework_admin/commdownload?platform=win&from=wwindex#/wxwork.exe",
+    "hash": "cf35ea076a9bf779dc99924a636b2d585a5b9fb7870af962d1188713bd52467a",
+    "installer": {
+        "script": [
+            "Start-Process -FilePath \"$dir\\$fname\" -Verb RunAs | Wait-Process"
+        ]
+    },
+    "checkver": {
+        "url": "https://work.weixin.qq.com/",
+        "regex": "企业微信 ([\\d.]+)"
+    },
+    "autoupdate": {
+        "url": "https://work.weixin.qq.com/wework_admin/commdownload?platform=win&from=wwindex#/wxwork.exe"
+    }
+}
