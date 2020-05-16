@@ -1,5 +1,5 @@
 {
-    "version": "84.0.4118.0-r760001",
+    "version": "85.0.4148.0-r769185",
     "description": "An open-source browser project that aims to build a safer, faster, and more stable way for all users to experience the web.",
     "license": "BSD-3-Clause",
     "homepage": "https://www.chromium.org",
@@ -22,8 +22,8 @@
     ],
     "architecture": {
         "64bit": {
-            "url": "https://github.com/macchrome/chromium/releases/download/v84.0.4118.0-r760001-Win64/Chrome-bin-sync.7z",
-            "hash": "1b774e6e724b05ff21e752627d3816abdabd3a4a70c5afd939a0aa32ad826188",
+            "url": "https://github.com/macchrome/chromium/releases/download/v85.0.4148.0-r769185-Win64/Chrome-bin-sync.7z",
+            "hash": "701ed3dde4c4ba0cdb546d92ec7326fcec204c3261ec2caf7d0ec7b17de46cf1",
             "extract_dir": "Chrome-bin-sync"
         }
     },
