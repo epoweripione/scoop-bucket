@@ -6,29 +6,17 @@
     "architecture": {
         "64bit": {
             "url": "https://resource.u-tools.cn/currentversion/uTools-1.0.6-beta.exe#/dl.7z",
-            "hash": "b1726b8250cb275f94259d6ac2168123c4ab5915790a23829797640b1a5d6aa1",
-            "installer": {
-                "script": "Expand-7zipArchive \"$dir\\`$PLUGINSDIR/app-64.7z\" \"$dir\""
-            }
+            "hash": "b1726b8250cb275f94259d6ac2168123c4ab5915790a23829797640b1a5d6aa1"
         },
         "32bit": {
             "url": "https://resource.u-tools.cn/currentversion/uTools-1.0.6-beta-ia32.exe#/dl.7z",
-            "hash": "0f070b3eefaf3f9f298df14dda1869a14390cec03a391083ce30b6910462eedf",
-            "installer": {
-                "script": "Expand-7zipArchive \"$dir\\`$PLUGINSDIR/app-32.7z\" \"$dir\""
-            }
+            "hash": "0f070b3eefaf3f9f298df14dda1869a14390cec03a391083ce30b6910462eedf"
         }
     },
-    "post_install": "Remove-Item \"$dir\\`$PLUGINSDIR\", \"$dir\\Uninstall uTools.exe\" -Force -Recurse",
-    "shortcuts": [
-        [
-            "uTools.exe",
-            "uTools"
+    "installer": {
+        "script": [
+            "Start-Process -FilePath \"$dir\\$fname\" -Verb RunAs | Wait-Process"
         ]
-    ],
-    "checkver": {
-        "url": "https://resource.u-tools.cn/currentversion/latest.yml",
-        "regex": "uTools-([\\w.-]+).exe"
     },
     "autoupdate": {
         "architecture": {
