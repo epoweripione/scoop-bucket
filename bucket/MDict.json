@@ -22,7 +22,7 @@
         ]
     ],
     "checkver": {
-        "url": "https://www.mdict.cn/wp/?page_id=5325",
+        "url": "https://www.mdict.cn/wp/?page_id=5325&lang=en",
         "regex": "Windows \\(([\\d.]+)\\)\\:.*?(?<filename>MDictPC[\\d.]+\\.7z)"
     },
     "autoupdate": {
