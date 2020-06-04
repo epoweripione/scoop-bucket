@@ -9,7 +9,6 @@
     "extract_dir": "",
     "bin": "GoldenDict.exe",
     "shortcuts": [["GoldenDict.exe", "GoldenDict"]],
-    "persist": "portable",
     "post_install": [
         "# update bin",
         "git clone --depth=1 https://github.com/nonwill/nwDeployed $dir\\nwDeployed",
