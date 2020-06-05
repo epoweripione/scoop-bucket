@@ -15,9 +15,9 @@
         "Copy-Item -Path \"$dir\\nwDeployed\\bin5_x64_msvc\\*\" -Destination \"$dir\" -Recurse -Force -Confirm:$false",
         "Remove-Item -Path \"$dir\\nwDeployed\" -Recurse -Force -Confirm:$false",
         "# ocr",
-        "curl -L -o \"$dir\\ocr_x64.7z\" \"https://forum.freemdict.com/uploads/short-url/tSYVG8Ie6gxbAXF9nIXN4S7yNfl.7z\"",
-        "if ($?) {7z.exe x \"$dir\\ocr_x64.7z\" \"-o$($dir)\" -y > $null}",
-        "Remove-Item -Path \"$dir\\ocr_x64.7z\" -Recurse -Force -Confirm:$false"
+        "# curl -L -o \"$dir\\ocr_x64.7z\" \"https://forum.freemdict.com/uploads/short-url/tSYVG8Ie6gxbAXF9nIXN4S7yNfl.7z\"",
+        "# if ($?) {7z.exe x \"$dir\\ocr_x64.7z\" \"-o$($dir)\" -y > $null}",
+        "# Remove-Item -Path \"$dir\\ocr_x64.7z\" -Recurse -Force -Confirm:$false"
     ],
     "checkver": {
         "url": "https://forum.freemdict.com/t/topic/199/1",
