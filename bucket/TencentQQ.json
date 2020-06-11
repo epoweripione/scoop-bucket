@@ -4,7 +4,7 @@
     "license": "Commercial",
     "version": "2020",
     "url": "https://down.qq.com/qqweb/PCQQ/PCQQ_EXE/PCQQ2020.exe",
-    "hash": "bb87a577aa1485286ca9d02d98c58929d97e8407e93c9130c744f89cb2834d1b",
+    "hash": "270de1052f4fce66bb39e5719497db3b7ade88499e61ecbcd879f947ecdf2d92",
     "installer": {
         "script": [
             "Start-Process -FilePath \"$dir\\$fname\" -Verb RunAs | Wait-Process"
