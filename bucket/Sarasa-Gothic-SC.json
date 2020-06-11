@@ -3,12 +3,8 @@
     "version": "0.12.7",
     "license": "OFL-1.1",
     "homepage": "https://github.com/be5invis/Sarasa-Gothic",
-    "url": "https://github.com/be5invis/Sarasa-Gothic/releases/download/v0.12.7/sarasa-gothic-ttf-0.12.7.7z#/dl.7z_",
+    "url": "https://mirrors.tuna.tsinghua.edu.cn/github-release/be5invis/Sarasa-Gothic/v0.12.7/sarasa-gothic-ttf-0.12.7.7z#/dl.7z_",
     "hash": "bb800849343d2fb724196e83d8f17a4a00a35db876da5dd64c58228716c94f73",
-    "checkver": "github",
-    "autoupdate": {
-        "url": "https://github.com/be5invis/Sarasa-Gothic/releases/download/v$version/sarasa-gothic-ttf-$version.7z#/dl.7z_"
-    },
     "installer": {
         "script": [
             "Invoke-ExternalCommand 7z -ArgumentList('e', \"$dir\\dl.7z_\" ,\"-o$dir\", '*-sc-*.ttf') | Out-Null",
@@ -27,5 +23,12 @@
             "}",
             "Write-Host \"The 'Sarasa-Gothic' Font family has been uninstalled and will not be present after restarting your computer.\" -Foreground Magenta"
         ]
+    },
+    "checkver": {
+        "url": "https://mirrors.tuna.tsinghua.edu.cn/github-release/be5invis/Sarasa-Gothic/",
+        "regex": "v([\\d.]+)\\/"
+    },
+    "autoupdate": {
+        "url": "https://mirrors.tuna.tsinghua.edu.cn/github-release/be5invis/Sarasa-Gothic/v$version/sarasa-gothic-ttf-$version.7z#/dl.7z_"
     }
 }
