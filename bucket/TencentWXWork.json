@@ -2,9 +2,9 @@
     "homepage": "https://weixin.qq.com/",
     "description": "Wechat Work by Tencent",
     "license": "Commercial",
-    "version": "3.0.21",
+    "version": "3.0.24",
     "url": "https://work.weixin.qq.com/wework_admin/commdownload?platform=win&from=wwindex#/wxwork.exe",
-    "hash": "48cae01325c88def7c54fce330e28d34247404eecbb24819cc1e82dd99c5cdf9",
+    "hash": "44e406e8f57d66bfb19c3230c4608f77336cc39fae6e4a25b5acf018b10b04e1",
     "installer": {
         "script": "Start-Process -FilePath \"$dir\\$fname\" -Verb RunAs | Wait-Process"
     },
