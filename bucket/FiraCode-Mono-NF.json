@@ -12,6 +12,14 @@
     "installer": {
         "script": [
             "if(!(is_admin)) { error \"Admin rights are required, please run 'sudo scoop install $app'\"; exit 1 }",
+            "Get-ChildItem \"$env:windir\\Fonts\" -filter 'Fira Code*.ttf' | ForEach-Object {",
+            "  try {",
+            "    Remove-Item \"$env:windir\\Fonts\\$($_.Name)\" -Force -ErrorAction Stop",
+            "  } catch {",
+            "    Write-Warning \"Something failed, please try again later or after a reboot!`n$($error[0])\"",
+            "    exit 1",
+            "  }",
+            "}",
             "Get-ChildItem $dir -filter 'Fira Code*.ttf' | ForEach-Object {",
             "    New-ItemProperty -Path 'HKLM:\\SOFTWARE\\Microsoft\\Windows NT\\CurrentVersion\\Fonts' -Name $_.Name.Replace($_.Extension, ' (TrueType)') -Value $_.Name -Force | Out-Null",
             "    Copy-Item $_.FullName -destination \"$env:windir\\Fonts\"",
