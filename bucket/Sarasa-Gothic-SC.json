@@ -1,10 +1,10 @@
 {
     "##": "Renaming .7z to .7z_ so that the archive will not be automatically extracted by Scoop.",
-    "version": "0.12.7",
+    "version": "0.12.8",
     "license": "OFL-1.1",
     "homepage": "https://github.com/be5invis/Sarasa-Gothic",
-    "url": "https://mirrors.tuna.tsinghua.edu.cn/github-release/be5invis/Sarasa-Gothic/v0.12.7/sarasa-gothic-ttf-0.12.7.7z#/dl.7z_",
-    "hash": "bb800849343d2fb724196e83d8f17a4a00a35db876da5dd64c58228716c94f73",
+    "url": "https://mirrors.tuna.tsinghua.edu.cn/github-release/be5invis/Sarasa-Gothic/v0.12.8/sarasa-gothic-ttf-0.12.8.7z#/dl.7z_",
+    "hash": "aa8001452f35c4e35af15cf9b97216ab29b07528f789b10bf0529d41fa151c07",
     "installer": {
         "script": [
             "Invoke-ExternalCommand 7z -ArgumentList('e', \"$dir\\dl.7z_\" ,\"-o$dir\", '*-sc-*.ttf') | Out-Null",
