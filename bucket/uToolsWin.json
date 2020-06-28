@@ -2,21 +2,23 @@
     "homepage": "https://u.tools/",
     "description": "Your productive tools set and launcher.",
     "license": "Unknown",
-    "version": "1.0.6-beta",
+    "version": "1.1.3",
     "architecture": {
         "64bit": {
-            "url": "https://resource.u-tools.cn/currentversion/uTools-1.0.6-beta.exe#/dl.7z",
-            "hash": "b1726b8250cb275f94259d6ac2168123c4ab5915790a23829797640b1a5d6aa1"
+            "url": "https://resource.u-tools.cn/currentversion/uTools-1.1.3.exe#/dl.7z",
+            "hash": "ba43521bab0f84ac0d50cd467964b0919c7dc0ddec1e0ec940fb52d96420e1ec"
         },
         "32bit": {
-            "url": "https://resource.u-tools.cn/currentversion/uTools-1.0.6-beta-ia32.exe#/dl.7z",
-            "hash": "0f070b3eefaf3f9f298df14dda1869a14390cec03a391083ce30b6910462eedf"
+            "url": "https://resource.u-tools.cn/currentversion/uTools-1.1.3-ia32.exe#/dl.7z",
+            "hash": "a4ab5b1f424b56f8172608d0bfede6901ad71f51d97645a1e63570b5fdc574ba"
         }
     },
     "installer": {
-        "script": [
-            "Start-Process -FilePath \"$dir\\$fname\" -Verb RunAs | Wait-Process"
-        ]
+        "script": "Start-Process -FilePath \"$dir\\$fname\" -Verb RunAs | Wait-Process"
+    },
+    "checkver": {
+        "url": "https://yuanliao.info/",
+        "regex": "[vV]+([\\d.]+)\\s*版本更新说明"
     },
     "autoupdate": {
         "architecture": {
