@@ -1,9 +1,9 @@
 {
     "homepage": "https://www.dcloud.io/hbuilderx.html",
-    "version": "2.7.14.20200618",
+    "version": "2.8.3.20200728",
     "license": "",
-    "url": "https://download1.dcloud.net.cn/download/HBuilderX.2.7.14.20200618.full.zip",
-    "hash": "759506b625e76b3b23f8a9d94dd51d2c0c5559ec36ee0b1157d792e2e24ade19",
+    "url": "https://download1.dcloud.net.cn/download/HBuilderX.2.8.3.20200728.full.zip",
+    "hash": "920b5e31a30364369a3d0a99298416e7fc5ff226a20d2d37db3d1ab55ae6f414",
     "extract_dir": "HBuilderX",
     "bin": "HBuilderX.exe",
     "shortcuts": [
