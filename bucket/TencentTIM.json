@@ -2,9 +2,9 @@
     "homepage": "https://tim.qq.com/",
     "description": "TIM by Tencent",
     "license": "Commercial",
-    "version": "3.1.0.21781",
+    "version": "3.1.0.21789",
     "url": "https://dldir1.qq.com/qqfile/qq/TIM3.1.0/TIM3.1.0.21781.exe",
-    "hash": "342c090ab6d173b5fb8ac51fab167be2eda817205749fc64153bd9d184d6cd32",
+    "hash": "d9f1640bb4c65ef22a153299ba830110d029b6cbd34d1262f110ca94eb73097a",
     "installer": {
         "script": [
             "Start-Process -FilePath \"$dir\\$fname\" -Verb RunAs | Wait-Process"

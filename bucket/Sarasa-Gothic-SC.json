@@ -1,10 +1,10 @@
 {
     "##": "Renaming .7z to .7z_ so that the archive will not be automatically extracted by Scoop.",
-    "version": "0.12.13",
+    "version": "0.13.1",
     "license": "OFL-1.1",
     "homepage": "https://github.com/be5invis/Sarasa-Gothic",
-    "url": "https://mirrors.tuna.tsinghua.edu.cn/github-release/be5invis/Sarasa-Gothic/v0.12.13/sarasa-gothic-ttf-0.12.13.7z#/dl.7z_",
-    "hash": "c3f17716e61301b182e03694002da9efba16abd312e3e27b0938c9f97c5084c0",
+    "url": "https://mirrors.tuna.tsinghua.edu.cn/github-release/be5invis/Sarasa-Gothic/Sarasa Gothic 0.13.1/sarasa-gothic-ttf-0.13.1.7z#/dl.7z_",
+    "hash": "529f4bf76ce5c03af7dd571036c39ab798f1ad7292772b55ed22a90c23b98e04",
     "installer": {
         "script": [
             "if(!(is_admin)) { error \"Admin rights are required, please run 'sudo scoop install $app'\"; exit 1 }",
@@ -36,9 +36,9 @@
     },
     "checkver": {
         "url": "https://mirrors.tuna.tsinghua.edu.cn/github-release/be5invis/Sarasa-Gothic/",
-        "regex": "v([\\d.]+)\\/"
+        "regex": "Sarasa Gothic ([\\d.]+)\\/"
     },
     "autoupdate": {
-        "url": "https://mirrors.tuna.tsinghua.edu.cn/github-release/be5invis/Sarasa-Gothic/v$version/sarasa-gothic-ttf-$version.7z#/dl.7z_"
+        "url": "https://mirrors.tuna.tsinghua.edu.cn/github-release/be5invis/Sarasa-Gothic/Sarasa Gothic $version/sarasa-gothic-ttf-$version.7z#/dl.7z_"
     }
 }
