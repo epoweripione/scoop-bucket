@@ -1,10 +1,10 @@
 {
     "##": "Renaming .7z to .7z_ so that the archive will not be automatically extracted by Scoop.",
-    "version": "0.13.1",
+    "version": "0.13.2",
     "license": "OFL-1.1",
     "homepage": "https://github.com/be5invis/Sarasa-Gothic",
-    "url": "https://mirrors.tuna.tsinghua.edu.cn/github-release/be5invis/Sarasa-Gothic/Sarasa Gothic 0.13.1/sarasa-gothic-ttf-0.13.1.7z#/dl.7z_",
-    "hash": "529f4bf76ce5c03af7dd571036c39ab798f1ad7292772b55ed22a90c23b98e04",
+    "url": "https://mirrors.tuna.tsinghua.edu.cn/github-release/be5invis/Sarasa-Gothic/LatestRelease/sarasa-gothic-ttf-0.13.2.7z#/dl.7z_",
+    "hash": "7e50b1fe67fe2632a97721d51f7648dcdf6497fe6a7d7d77613ad76617ab093f",
     "installer": {
         "script": [
             "if(!(is_admin)) { error \"Admin rights are required, please run 'sudo scoop install $app'\"; exit 1 }",
@@ -35,10 +35,10 @@
         ]
     },
     "checkver": {
-        "url": "https://mirrors.tuna.tsinghua.edu.cn/github-release/be5invis/Sarasa-Gothic/",
-        "regex": "Sarasa Gothic ([\\d.]+)\\/"
+        "url": "https://mirrors.tuna.tsinghua.edu.cn/github-release/be5invis/Sarasa-Gothic/LatestRelease/",
+        "regex": "sarasa-gothic-ttf-([\\d.]+)\\.7z"
     },
     "autoupdate": {
-        "url": "https://mirrors.tuna.tsinghua.edu.cn/github-release/be5invis/Sarasa-Gothic/Sarasa Gothic $version/sarasa-gothic-ttf-$version.7z#/dl.7z_"
+        "url": "https://mirrors.tuna.tsinghua.edu.cn/github-release/be5invis/Sarasa-Gothic/LatestRelease/sarasa-gothic-ttf-$version.7z#/dl.7z_"
     }
 }
