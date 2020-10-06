@@ -7,7 +7,7 @@
         "64bit": {
             "url": "http://d.wisecleaner.com/soft/WDR_5.1.7.335.zip",
             "hash": "4af6feaf194bd657dfaea1ae61ccb05475a40e7398dd67b8c2f325693538e372",
-            "extract_dir": "Wise Data Recovery"
+            "extract_dir": "WDR/Wise Data Recovery_x64"
         }
     },
     "bin": "WiseDataRecovery.exe",
@@ -25,7 +25,7 @@
         "architecture": {
             "64bit": {
                 "url": "http://d.wisecleaner.com/soft/WDR_$version.zip",
-                "extract_dir": "Wise Data Recovery"
+                "extract_dir": "WDR/Wise Data Recovery_x64"
             }
         }
     }
