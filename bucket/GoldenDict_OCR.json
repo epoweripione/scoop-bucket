@@ -1,0 +1,30 @@
+{
+    "homepage": "https://sourceforge.net/projects/goldendict/",
+    "description": "A feature-rich dictionary lookup program.",
+    "notes": "Modified by nonwill, https://nonwill.github.io/post/goldendict/",
+    "version": "2A15_20201030",
+    "license": "freeware",
+    "url": "https://github.com/nonwill/nwDeployed/releases/download/GoldenDict_OCR_2A15_20201030/qt5_x64_msvc.tar.bz2",
+    "hash": "c08e3a2e37a332ade928855e70c1e677cdf2a52167c392cc560afbf5f804c957",
+    "extract_dir": "bin5_x64_msvc",
+    "bin": "GoldenDict.exe",
+    "shortcuts": [["GoldenDict.exe", "GoldenDict"]],
+    "post_install": [
+        "# update bin",
+        "# git clone --depth=1 https://github.com/nonwill/nwDeployed $dir\\nwDeployed",
+        "# Copy-Item -Path \"$dir\\nwDeployed\\bin5_x64_msvc\\*\" -Destination \"$dir\" -Recurse -Force -Confirm:$false",
+        "# Remove-Item -Path \"$dir\\nwDeployed\" -Recurse -Force -Confirm:$false",
+        "# ocr",
+        "# curl -L -o \"$dir\\ocr_x64.7z\" \"https://forum.freemdict.com/uploads/short-url/tSYVG8Ie6gxbAXF9nIXN4S7yNfl.7z\"",
+        "# if ($?) {7z.exe x \"$dir\\ocr_x64.7z\" \"-o$($dir)\" -y > $null}",
+        "# Remove-Item -Path \"$dir\\ocr_x64.7z\" -Recurse -Force -Confirm:$false"
+    ],
+    "checkver": {
+        "url": "https://nonwill.github.io/post/goldendict/",
+        "re": "GoldenDict_OCR_([A-F0-9]+_[\\d.]+)"
+    },
+    "autoupdate": {
+        "url": "https://github.com/nonwill/nwDeployed/releases/download/GoldenDict_OCR_$version/qt5_x64_msvc.tar.bz2",
+        "extract_dir": "bin5_x64_msvc"
+    }
+}
