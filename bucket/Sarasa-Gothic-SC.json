@@ -1,14 +1,14 @@
 {
     "##": "Renaming .7z to .7z_ so that the archive will not be automatically extracted by Scoop.",
-    "version": "0.14.5",
+    "version": "0.15.1",
     "license": "OFL-1.1",
     "homepage": "https://github.com/be5invis/Sarasa-Gothic",
-    "url": "https://mirrors.tuna.tsinghua.edu.cn/github-release/be5invis/Sarasa-Gothic/Sarasa Gothic version 0.14.5/sarasa-gothic-ttf-0.14.5.7z#/dl.7z_",
-    "hash": "285c0bda26a4b2e7912c1dea0e7472d6eea9a69740bf2cb6c5fbbf4324ef4e26",
+    "url": "https://mirrors.tuna.tsinghua.edu.cn/github-release/be5invis/Sarasa-Gothic/Sarasa Gothic version 0.15.1/sarasa-gothic-ttf-0.15.1.7z#/dl.7z_",
+    "hash": "983b69b5ca98f2ce3ec9d05515931505e392475dcff3ec5115a24d3da4a5ae75",
     "installer": {
         "script": [
             "if(!(is_admin)) { error \"Admin rights are required, please run 'sudo scoop install $app'\"; exit 1 }",
-            "Get-ChildItem \"$env:windir\\Fonts\" -filter 'sarasa*-sc-*.ttf' | ForEach-Object {",
+            "Get-ChildItem \"$env:windir\\Fonts\" -Filter 'sarasa*-sc-*.ttf' | ForEach-Object {",
             "  try {",
             "    Remove-Item \"$env:windir\\Fonts\\$($_.Name)\" -Force -ErrorAction Stop",
             "  } catch {",
@@ -16,9 +16,9 @@
             "    exit 1",
             "  }",
             "}",
-            "Invoke-ExternalCommand 7z -ArgumentList('e', \"$dir\\dl.7z_\" ,\"-o$dir\", '*-sc-*.ttf') | Out-Null",
+            "Invoke-ExternalCommand 7z -ArgumentList('e', \"$dir\\dl.7z_\", \"-o$dir\", '*-sc-*.ttf') | Out-Null",
             "Remove-Item \"$dir\\dl.7z_\"",
-            "Get-ChildItem $dir -filter 'sarasa*.ttf' | ForEach-Object {",
+            "Get-ChildItem \"$dir\" -Filter 'sarasa*.ttf' | ForEach-Object {",
             "  New-ItemProperty -Path 'HKLM:\\SOFTWARE\\Microsoft\\Windows NT\\CurrentVersion\\Fonts' -Name $_.Name.Replace($_.Extension, ' (TrueType)') -Value $_.Name -Force | Out-Null",
             "  Copy-Item $_.FullName -destination \"$env:windir\\Fonts\"",
             "}"
@@ -27,7 +27,7 @@
     "uninstaller": {
         "script": [
             "if(!(is_admin)) { error \"Admin rights are required, please run 'sudo scoop uninstall $app'\"; exit 1 }",
-            "Get-ChildItem $dir -filter 'sarasa*.ttf' | ForEach-Object {",
+            "Get-ChildItem \"$dir\" -Filter 'sarasa*.ttf' | ForEach-Object {",
             "  Remove-ItemProperty -Path 'HKLM:\\SOFTWARE\\Microsoft\\Windows NT\\CurrentVersion\\Fonts' -Name $_.Name.Replace($_.Extension, ' (TrueType)') -Force -ErrorAction SilentlyContinue",
             "  Remove-Item \"$env:windir\\Fonts\\$($_.Name)\" -Force -ErrorAction SilentlyContinue",
             "}",
