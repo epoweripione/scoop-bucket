@@ -25,7 +25,7 @@
         "architecture": {
             "64bit": {
                 "url": "http://d.wisecleaner.com/soft/WDR_$version.zip",
-                "extract_dir": "WDR/Wise Data Recovery_x64"
+                "extract_dir": "Wise Data Recovery_x64"
             }
         }
     }
