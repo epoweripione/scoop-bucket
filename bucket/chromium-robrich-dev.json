@@ -1,12 +1,12 @@
 {
-    "version": "88.0.4312.0-r823019",
+    "version": "89.0.4343.0-r832360",
     "description": "Browser aiming for safer, faster, and more stable way for all users to experience the web.",
     "license": "BSD-3-Clause",
     "homepage": "https://www.chromium.org",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/RobRich999/Chromium_Clang/releases/download/v88.0.4312.0-r823019-win64/chrome.zip",
-            "hash": "sha1:148827812f192a061b05473b30cd1b1b44c95e86",
+            "url": "https://github.com/RobRich999/Chromium_Clang/releases/download/v89.0.4343.0-r832360-win64/chrome.zip",
+            "hash": "sha1:76be7959bb85aa8baad961c0479ed317129b01df",
             "extract_dir": "chrome-win32"
         }
     },
