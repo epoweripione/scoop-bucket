@@ -7,7 +7,7 @@
         "64bit": {
             "url": "http://d.wisecleaner.com/soft/WDR_5.1.8.336.zip",
             "hash": "27a79674c4f82a9a9aad3785fb1c158c6c3b9bab5fc930d72dc90e55f5b1e0d0",
-            "extract_dir": "WDR/Wise Data Recovery_x64"
+            "extract_dir": "Wise Data Recovery_x64"
         }
     },
     "bin": "WiseDataRecovery.exe",
