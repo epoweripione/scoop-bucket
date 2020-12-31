@@ -1,18 +1,16 @@
 {
-    "homepage": "https://im.qq.com/",
+    "homepage": "https://im.qq.com/pcqq/",
     "description": "QQ by Tencent",
     "license": "Commercial",
-    "version": "2020",
+    "version": "9.4.2",
     "url": "https://down.qq.com/qqweb/PCQQ/PCQQ_EXE/PCQQ2020.exe",
-    "hash": "1f03882e9a28136575f3b66eaa2713a6812cfa89e664d1d6d95d927c4cd7ad20",
+    "hash": "77dc070519be08700c6b82674bb8ed02e9f6b68b0e84931c9933db57448d481c",
     "installer": {
-        "script": [
-            "Start-Process -FilePath \"$dir\\$fname\" -Verb RunAs | Wait-Process"
-        ]
+        "script": "Start-Process -FilePath \"$dir\\$fname\" -Verb RunAs | Wait-Process"
     },
     "checkver": {
-        "url": "https://im.qq.com/download/",
-        "regex": "PCQQ([\\d.]+)\\.exe"
+        "url": "https://im.qq.com/pcqq/",
+        "regex": "<span class=\"new-version\">([\\d.]+)<"
     },
     "autoupdate": {
         "url": "https://down.qq.com/qqweb/PCQQ/PCQQ_EXE/PCQQ2020.exe"
