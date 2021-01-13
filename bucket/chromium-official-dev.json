@@ -1,12 +1,12 @@
 {
-    "version": "89.0.4375.0-r839847",
+    "version": "89.0.4387.0-r842722",
     "description": "Browser aiming for safer, faster, and more stable way for all users to experience the web.",
     "license": "BSD-3-Clause",
     "homepage": "https://www.chromium.org",
     "architecture": {
         "64bit": {
-            "url": "https://storage.googleapis.com/chromium-browser-snapshots/Win_x64/839847/chrome-win.zip",
-            "hash": "50876cb4673c65fc3c5a8a0e28346a3af97a1628eb3b0a2ba0a743ed3452fd2e",
+            "url": "https://storage.googleapis.com/chromium-browser-snapshots/Win_x64/842722/chrome-win.zip",
+            "hash": "4416289caceda4a357b1a70e4d79869c26aa879b86feeb71e2866a271427ac71",
             "extract_dir": "chrome-win"
         }
     },

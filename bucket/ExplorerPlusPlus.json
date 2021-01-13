@@ -1,15 +1,15 @@
 {
     "homepage": "https://explorerplusplus.com/",
-    "version": "1.4.0.1777",
+    "version": "1.4.0.1797",
     "license": "freeware",
     "architecture": {
         "64bit": {
             "url": "https://ci.appveyor.com/api/projects/derceg/explorerplusplus/artifacts/explorerpp_x64.zip?branch=master&job=Platform%3A%20x64",
-            "hash": "e92d8f491e3b866247910349cc18cd92ec73970e7315bbc11128ca8035e1ec82"
+            "hash": "6dd79caa1af2b6f45efd84d1620955ddc65320d2264e4634f88ca148fc625f55"
         },
         "32bit": {
             "url": "https://ci.appveyor.com/api/projects/derceg/explorerplusplus/artifacts/explorerpp_x86.zip?branch=master&job=Platform%3A%20Win32",
-            "hash": "5796c6c09769650174b8a94abcb282e7582128be9d4db0fbd8944eb10d2043f8"
+            "hash": "0d2ddd77fc674c790291068c19f45f9f23feccde7a53f4331a1939bc2cad27c7"
         }
     },
     "bin": [
