@@ -2,9 +2,9 @@
     "homepage": "https://tim.qq.com/",
     "description": "TIM by Tencent",
     "license": "Commercial",
-    "version": "3.3.0.21972",
-    "url": "https://dldir1.qq.com/qqfile/qq/PCTIM/TIM3.3.0/TIM3.3.0.21972.exe",
-    "hash": "fe1a43959263322467a547f4c5c9fcec14370fe5de4abf75b51c9a9290c69cd0",
+    "version": "3.3.0.22020",
+    "url": "https://dldir1.qq.com/qqfile/qq/PCTIM/TIM3.3.0/TIM3.3.0.22020.exe",
+    "hash": "3d6165b9fd0668ddd335d177f4c2b6abbabbb273d03c0d9161014e6eb5cb72ce",
     "installer": {
         "script": "Start-Process -FilePath \"$dir\\$fname\" -Verb RunAs | Wait-Process"
     },
