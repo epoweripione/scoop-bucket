@@ -2,7 +2,7 @@
     "homepage": "https://im.qq.com/pcqq/",
     "description": "QQ by Tencent",
     "license": "Commercial",
-    "version": "9.4.3",
+    "version": "9.4.5",
     "url": "https://down.qq.com/qqweb/PCQQ/PCQQ_EXE/PCQQ2020.exe",
     "hash": "2a3be5e3055cc57ac896f6e6249b57988c8c3c0457b0f1d7e1810a577216e6af",
     "installer": {
