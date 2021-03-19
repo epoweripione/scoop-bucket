@@ -1,0 +1,41 @@
+{
+    "version": "91.0.4441.0-r860639",
+    "description": "Browser aiming for safer, faster, and more stable way for all users to experience the web.",
+    "license": "BSD-3-Clause",
+    "homepage": "https://www.chromium.org",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/RobRich999/Chromium_Clang/releases/download/v91.0.4441.0-r860639-win64-avx2/chrome.zip",
+            "hash": "sha1:0bd46833e1de1a6a2a0da81228f0a619e45f8a65",
+            "extract_dir": "chrome-win32"
+        }
+    },
+    "bin": [
+        [
+            "chrome.exe",
+            "chromium-dev"
+        ]
+    ],
+    "shortcuts": [
+        [
+            "chrome.exe",
+            "Chromium (RobRich-dev-avx2)"
+        ]
+    ],
+    "checkver": {
+        "url": "https://raw.githubusercontent.com/RobRich999/Chromium_Clang/master/README.md",
+        "regex": "v([\\d.]+-r\\d+)-win64-avx2"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/RobRich999/Chromium_Clang/releases/download/v$version-win64-avx2/chrome.zip",
+                "extract_dir": "chrome-win32",
+                "hash": {
+                    "url": "https://github.com/RobRich999/Chromium_Clang/releases/tag/v$version-win64-avx2",
+                    "regex": "chrome\\.zip\\s\\-\\s([a-fA-F0-9]{40})"
+                }
+            }
+        }
+    }
+}

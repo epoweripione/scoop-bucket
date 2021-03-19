@@ -1,0 +1,38 @@
+{
+    "version": "91.0.4449.0-r863159",
+    "description": "Browser aiming for safer, faster, and more stable way for all users to experience the web.",
+    "license": "BSD-3-Clause",
+    "homepage": "https://www.chromium.org",
+    "architecture": {
+        "64bit": {
+            "url": "https://storage.googleapis.com/chromium-browser-snapshots/Win_x64/863159/chrome-win.zip",
+            "hash": "739800336023b2542acc10b74536d4b3ae98a61b3eb41f100ac519c67b7e9a13",
+            "extract_dir": "chrome-win"
+        }
+    },
+    "bin": [
+        [
+            "chrome.exe",
+            "chromium-dev"
+        ]
+    ],
+    "shortcuts": [
+        [
+            "chrome.exe",
+            "Chromium (offficial-dev)"
+        ]
+    ],
+    "checkver": {
+        "url": "https://chromium.woolyss.com/api/v3/?os=windows&bit=64&out=string",
+        "regex": "version=(?<version>[\\d\\.]+);revision=(?<revision>[\\d]+)",
+        "replace": "${version}-r${revision}"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://storage.googleapis.com/chromium-browser-snapshots/Win_x64/$matchRevision/chrome-win.zip",
+                "extract_dir": "chrome-win"
+            }
+        }
+    }
+}

@@ -1,0 +1,33 @@
+{
+    "homepage": "https://u.tools/",
+    "description": "Your productive tools set and launcher.",
+    "license": "Unknown",
+    "version": "1.3.5",
+    "architecture": {
+        "64bit": {
+            "url": "https://resource.u-tools.cn/currentversion/uTools-1.3.5.exe#/dl.7z",
+            "hash": "6ffc7a649a3a432476d8f73e8235eb92984e50fb6ac3058759c301de7cd13f1a"
+        },
+        "32bit": {
+            "url": "https://resource.u-tools.cn/currentversion/uTools-1.3.5-ia32.exe#/dl.7z",
+            "hash": "904208f3decca7a5fce3269d27ff4712d38f1812fe22208a9c9218fd2a0dff98"
+        }
+    },
+    "installer": {
+        "script": "Start-Process -FilePath \"$dir\\$fname\" -Verb RunAs | Wait-Process"
+    },
+    "checkver": {
+        "url": "https://yuanliao.info/",
+        "regex": "[vV]+([\\d.]+)\\s*版本更新说明"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://resource.u-tools.cn/currentversion/uTools-$version.exe#/dl.7z"
+            },
+            "32bit": {
+                "url": "https://resource.u-tools.cn/currentversion/uTools-$version-ia32.exe#/dl.7z"
+            }
+        }
+    }
+}
