@@ -1,0 +1,33 @@
+{
+    "version": "0.10.2",
+    "description": "Wintun is a very simple and minimal TUN driver for the Windows kernel, which provides userspace programs with a simple network adapter for reading and writing packets.",
+    "license": "GPL 2.0",
+    "homepage": "https://www.wintun.net/",
+    "extract_dir": "wintun",
+    "architecture": {
+        "64bit": {
+            "url": "https://www.wintun.net/builds/wintun-0.10.2.zip",
+            "hash": "fcd9f62f1bd5a550fcb9c21fbb5d6a556214753ccbbd1a3ebad4d318ec9dcbef"
+        }
+    },
+    "installer": {
+        "script": [
+            "if (-Not (Test-Path \"$env:USERPROFILE\\.config\\clash\")) { New-Item -path \"$env:USERPROFILE\\.config\\clash\" -type Directory | Out-Null }",
+            "Copy-Item \"$dir\\bin\\amd64\\wintun.dll\" -destination \"$env:USERPROFILE\\.config\\clash\""
+        ]
+    },
+    "uninstaller": {
+        "script": "Remove-Item \"$env:USERPROFILE\\.config\\clash\\wintun.dll\" -Force -ErrorAction SilentlyContinue"
+    },
+    "checkver": {
+        "url": "https://www.wintun.net/",
+        "regex": "wintun-([\\d\\.]+)\\.zip"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://www.wintun.net/builds/wintun-$version.zip"
+            }
+        }
+    }
+}
