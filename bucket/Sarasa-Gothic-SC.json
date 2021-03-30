@@ -1,10 +1,10 @@
 {
     "##": "Renaming .7z to .7z_ so that the archive will not be automatically extracted by Scoop.",
-    "version": "0.18.8",
+    "version": "0.20.0",
     "license": "OFL-1.1",
     "homepage": "https://github.com/be5invis/Sarasa-Gothic",
-    "url": "https://github.com/be5invis/Sarasa-Gothic/releases/download/v0.18.8/sarasa-gothic-ttf-0.18.8.7z#/dl.7z_",
-    "hash": "ed55b677958bbf4e34f09525a81ea0fc54cbcc1445aa963d03ca4c47ec7b7e9c",
+    "url": "https://github.com/be5invis/Sarasa-Gothic/releases/download/v0.20.0/sarasa-gothic-ttf-0.20.0.7z#/dl.7z_",
+    "hash": "1fe17ccb966946f6f20d405373c77ab8ad4b2a888306dbcf69b6219ab0898974",
     "installer": {
         "script": [
             "if(!(is_admin)) { error \"Admin rights are required, please run 'sudo scoop install $app'\"; exit 1 }",
