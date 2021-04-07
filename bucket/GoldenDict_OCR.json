@@ -1,11 +1,11 @@
 {
     "homepage": "https://sourceforge.net/projects/goldendict/",
     "description": "A feature-rich dictionary lookup program.",
-    "notes": "Modified by nonwill, https://nonwill.github.io/post/goldendict/goldendict/",
-    "version": "20210330",
+    "notes": "Modified by nonwill, https://autoptr.top/post/goldendict/goldendict/",
+    "version": "20210403",
     "license": "freeware",
-    "url": "https://github.com/nonwill/nwDeployed/releases/download/GoldenDict%2B%2BOCR_2A28_20210330/GoldenDict++OCR-2A28-Qt-5.9.9-msvc-16.9.2-x64-20210330.tar.bz2",
-    "hash": "912f92346cc66403aed4bb89f574661140b8ef65b57f42eec256e5d455101b20",
+    "url": "https://github.com/nonwill/nwDeployed/releases/download/GoldenDict%2B%2BOCR_2A29_20210403/GoldenDict++OCR-2A29-Qt-5.9.9-msvc-16.9.3-x64-20210403.tar.bz2",
+    "hash": "95e4cebd92b06e4f69a47e7282e456a815eeeb39138114e41ebbbbb9b2cc3c7c",
     "extract_dir": "bin5_x64_msvc",
     "bin": "GoldenDict.exe",
     "shortcuts": [
@@ -25,7 +25,7 @@
         "# Remove-Item -Path \"$dir\\ocr_x64.7z\" -Recurse -Force -Confirm:$false"
     ],
     "checkver": {
-        "url": "https://nonwill.github.io/post/goldendict/goldendict/",
+        "url": "https://autoptr.top/post/goldendict/goldendict/",
         "re": "OCR_(?<preversion>[A-F0-9]+)_([\\d.]+)/GoldenDict\\+\\+OCR-(?<miniversion>[A-F0-9]+)-Qt-(?<qtversion>[\\d.]+)-msvc-(?<msvcversion>[\\d.]+)-"
     },
     "autoupdate": {
