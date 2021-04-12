@@ -2,10 +2,10 @@
     "homepage": "https://sourceforge.net/projects/goldendict/",
     "description": "A feature-rich dictionary lookup program.",
     "notes": "Modified by nonwill, https://autoptr.top/post/goldendict/goldendict/",
-    "version": "20210403",
+    "version": "20210409",
     "license": "freeware",
-    "url": "https://github.com/nonwill/nwDeployed/releases/download/GoldenDict%2B%2BOCR_2A29_20210403/GoldenDict++OCR-2A29-Qt-5.9.9-msvc-16.9.3-x64-20210403.tar.bz2",
-    "hash": "95e4cebd92b06e4f69a47e7282e456a815eeeb39138114e41ebbbbb9b2cc3c7c",
+    "url": "https://github.com/nonwill/nwDeployed/releases/download/GoldenDict%2B%2BOCR_2A2A_20210409/GoldenDict++OCR-2A2A-Qt-5.9.9-msvc-16.9.3-x64-20210409.tar.bz2",
+    "hash": "986f79740f5cfaed5e291001c7a3071e61bda1306bfd7d33fb09f3602cfaa3c8",
     "extract_dir": "bin5_x64_msvc",
     "bin": "GoldenDict.exe",
     "shortcuts": [
