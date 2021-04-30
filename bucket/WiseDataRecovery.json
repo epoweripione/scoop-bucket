@@ -1,12 +1,12 @@
 {
-    "version": "5.1.8.336",
+    "version": "5.1.9.337",
     "description": "Professional Data Recovery Tool",
     "license": "https://www.wisecleaner.com",
     "homepage": "https://www.wisecleaner.com",
     "architecture": {
         "64bit": {
-            "url": "http://d.wisecleaner.com/soft/WDR_5.1.8.336.zip",
-            "hash": "27a79674c4f82a9a9aad3785fb1c158c6c3b9bab5fc930d72dc90e55f5b1e0d0",
+            "url": "http://d.wisecleaner.com/soft/WDR_5.1.9.337.zip",
+            "hash": "ae306e2f2a85f812627c7dedd40c9d8289157362514a0af333a752c0fd6eb14f",
             "extract_dir": "Wise Data Recovery_x64"
         }
     },
