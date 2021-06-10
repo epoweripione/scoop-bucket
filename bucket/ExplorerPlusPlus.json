@@ -14,19 +14,10 @@
     },
     "bin": [
         "Explorer++.exe",
-        [
-            "Explorer++.exe",
-            "ExplorerPlusPlus",
-            "--enable-plugins"
-        ]
+        ["Explorer++.exe", "ExplorerPlusPlus", "--enable-plugins"]
     ],
-    "shortcuts": [
-        [
-            "Explorer++.exe",
-            "Explorer++",
-            "--enable-plugins"
-        ]
-    ],
+    "persist": "config.xml",
+    "shortcuts": [["Explorer++.exe", "Explorer++", "--enable-plugins"]],
     "post_install": [
         "# plugins",
         "git clone --depth=1 https://github.com/derceg/explorerplusplus $dir\\explorerplusplus",
