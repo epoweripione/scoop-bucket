@@ -1,6 +1,6 @@
 {
     "homepage": "https://explorerplusplus.com/",
-    "version": "1.4.0.1843",
+    "version": "1.4.0.1845",
     "license": "freeware",
     "architecture": {
         "64bit": {
@@ -14,10 +14,20 @@
     },
     "bin": [
         "Explorer++.exe",
-        ["Explorer++.exe", "ExplorerPlusPlus", "--enable-plugins"]
+        [
+            "Explorer++.exe",
+            "ExplorerPlusPlus",
+            "--enable-plugins"
+        ]
     ],
     "persist": "config.xml",
-    "shortcuts": [["Explorer++.exe", "Explorer++", "--enable-plugins"]],
+    "shortcuts": [
+        [
+            "Explorer++.exe",
+            "Explorer++",
+            "--enable-plugins"
+        ]
+    ],
     "post_install": [
         "# plugins",
         "git clone --depth=1 https://github.com/derceg/explorerplusplus $dir\\explorerplusplus",
