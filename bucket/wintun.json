@@ -1,13 +1,13 @@
 {
-    "version": "0.11",
+    "version": "0.12",
     "description": "Wintun is a very simple and minimal TUN driver for the Windows kernel, which provides userspace programs with a simple network adapter for reading and writing packets.",
     "license": "GPL 2.0",
     "homepage": "https://www.wintun.net/",
     "extract_dir": "wintun",
     "architecture": {
         "64bit": {
-            "url": "https://www.wintun.net/builds/wintun-0.11.zip",
-            "hash": "a5e212dcfd11ba172f8c2d9ee34ae1a68e15d8115a05912d95b1209ce0695408"
+            "url": "https://www.wintun.net/builds/wintun-0.12.zip",
+            "hash": "eba90e26686ed86595ae0a6d4d3f4f022924b1758f5148a32a91c60cc6e604df"
         }
     },
     "installer": {
