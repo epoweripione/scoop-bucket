@@ -1,9 +1,9 @@
 {
-    "version": "13.1",
+    "version": "2.028",
     "license": "Apache-2.0",
     "homepage": "https://github.com/googlefonts/noto-emoji",
-    "url": "https://mirrors.tuna.tsinghua.edu.cn/github-release/googlefonts/noto-emoji/Unicode%2013.1/repo-snapshot.tar.gz#/noto-emoji.tar.gz",
-    "hash": "3dccd10752c1cdc225ad3c6cb94f7fec880a7d830e9af84854d3145ce072cb3a",
+    "url": "https://mirrors.tuna.tsinghua.edu.cn/github-release/googlefonts/noto-emoji/Noto%20Emoji%20v2.028/repo-snapshot.tar.gz#/noto-emoji.tar.gz",
+    "hash": "bac9f207ccbf2a76f42eeeb125b6ccc0a9d0f87993fc594f9e6c6bd2958cb1c8",
     "installer": {
         "script": [
             "if(!(is_admin)) { error \"Admin rights are required, please run 'sudo scoop install $app'\"; exit 1 }",
@@ -38,9 +38,9 @@
     },
     "checkver": {
         "url": "https://mirrors.tuna.tsinghua.edu.cn/github-release/googlefonts/noto-emoji/",
-        "regex": "Unicode ([\\d.]+)/"
+        "regex": "Noto Emoji v([\\d.]+)/"
     },
     "autoupdate": {
-        "url": "https://mirrors.tuna.tsinghua.edu.cn/github-release/googlefonts/noto-emoji/Unicode%20$version/repo-snapshot.tar.gz#/noto-emoji.tar.gz"
+        "url": "https://mirrors.tuna.tsinghua.edu.cn/github-release/googlefonts/noto-emoji/Noto%20Emoji%20v$version/repo-snapshot.tar.gz#/noto-emoji.tar.gz"
     }
 }
