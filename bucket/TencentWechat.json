@@ -9,8 +9,8 @@
         "script": "Start-Process -FilePath \"$dir\\$fname\" -Verb RunAs | Wait-Process"
     },
     "checkver": {
-        "url": "https://weixin.qq.com/",
-        "regex": "微信 ([\\d.]+) for Windows"
+        "url": "https://pc.weixin.qq.com/",
+        "regex": "<span class=\"version-tag\">([\\d.]+)<"
     },
     "autoupdate": {
         "url": "https://dldir1.qq.com/weixin/Windows/WeChatSetup.exe"
