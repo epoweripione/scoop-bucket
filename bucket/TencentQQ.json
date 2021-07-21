@@ -9,8 +9,8 @@
         "script": "Start-Process -FilePath \"$dir\\$fname\" -Verb RunAs | Wait-Process"
     },
     "checkver": {
-        "url": "https://im.qq.com/pcqq/logs",
-        "regex": "<span class=\"version-name\">PC版([\\d.]+)<"
+        "url": "https://im.qq.com/pcqq/",
+        "regex": "<span class=\"new-version\">([\\d.]+)<"
     },
     "autoupdate": {
         "url": "https://down.qq.com/qqweb/PCQQ/PCQQ_EXE/PCQQ2021.exe"
