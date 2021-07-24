@@ -2,23 +2,23 @@
     "homepage": "https://u.tools/",
     "description": "Your productive tools set and launcher.",
     "license": "Unknown",
-    "version": "2.0.7",
+    "version": "2.1.0",
     "architecture": {
         "64bit": {
-            "url": "https://publish.u-tools.cn/version2/uTools-2.0.7.exe#/dl.7z",
-            "hash": "f81b94268b19e920bc0033426f2bbce9e980c31cbb07aeb528de865bfe5545f4"
+            "url": "https://publish.u-tools.cn/version2/uTools-2.1.0.exe#/dl.7z",
+            "hash": "f77f1fc9f67cdf30ab0d0ed60f053df1180699a2b32377e4a436646892c100b5"
         },
         "32bit": {
-            "url": "https://publish.u-tools.cn/version2/uTools-2.0.7.exe#/dl.7z",
-            "hash": "f81b94268b19e920bc0033426f2bbce9e980c31cbb07aeb528de865bfe5545f4"
+            "url": "https://publish.u-tools.cn/version2/uTools-2.1.0-ia32.exe#/dl.7z",
+            "hash": "ee8b05871015d8f322d9483c820379117465925cba1faaca87e8cb9641de5f77"
         }
     },
     "installer": {
         "script": "Start-Process -FilePath \"$dir\\$fname\" -Verb RunAs | Wait-Process"
     },
     "checkver": {
-        "url": "https://yuanliao.info/",
-        "regex": "[vV]+([\\d.]+)\\s*版本"
+        "url": "https://u.tools/",
+        "regex": "uTools-([\\d.]+)\\.exe"
     },
     "autoupdate": {
         "architecture": {
@@ -26,7 +26,7 @@
                 "url": "https://publish.u-tools.cn/version2/uTools-$version.exe#/dl.7z"
             },
             "32bit": {
-                "url": "https://publish.u-tools.cn/version2/uTools-$version.exe#/dl.7z"
+                "url": "https://publish.u-tools.cn/version2/uTools-$version-ia32.exe#/dl.7z"
             }
         }
     }
