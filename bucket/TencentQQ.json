@@ -1,5 +1,5 @@
 {
-    "homepage": "https://im.qq.com/pcqq/",
+    "homepage": "https://im.qq.com/pcqq",
     "description": "QQ by Tencent",
     "license": "Commercial",
     "version": "9.4.9",
@@ -9,8 +9,8 @@
         "script": "Start-Process -FilePath \"$dir\\$fname\" -Verb RunAs | Wait-Process"
     },
     "checkver": {
-        "url": "https://im.qq.com/pcqq/",
-        "regex": "<span class=\"new-version\">([\\d.]+)<"
+        "url": "https://im.qq.com/pcqq",
+        "regex": "PC版([\\d.]+)"
     },
     "autoupdate": {
         "url": "https://down.qq.com/qqweb/PCQQ/PCQQ_EXE/PCQQ2021.exe"
