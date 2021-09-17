@@ -2,9 +2,9 @@
     "homepage": "https://weixin.qq.com/",
     "description": "Wechat by Tencent",
     "license": "Commercial",
-    "version": "3.3.5",
+    "version": "3.2.1",
     "url": "https://dldir1.qq.com/weixin/Windows/WeChatSetup.exe",
-    "hash": "67caa25c8b3daac6264d03751f9ee2fdf4ebd08eab95f9ffc0e3f2fe3cb28420",
+    "hash": "3de93ed63f3b896d422f6bfea3a8cdc37ba6d5ae2972015e9e8eac719c83067b",
     "installer": {
         "script": "Start-Process -FilePath \"$dir\\$fname\" -Verb RunAs | Wait-Process"
     },
