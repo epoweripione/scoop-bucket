@@ -10,7 +10,7 @@
     },
     "checkver": {
         "url": "https://im.qq.com/pcqq",
-        "regex": "PC版([\\d.]+)"
+        "regex": "版 ([\\d.]+)"
     },
     "autoupdate": {
         "url": "https://down.qq.com/qqweb/PCQQ/PCQQ_EXE/PCQQ2021.exe"
