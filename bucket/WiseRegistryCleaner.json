@@ -24,7 +24,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "http://downloads.wisecleaner.com/soft/WRCFree_$version.zip",
+                "url": "https://downloads.wisecleaner.com/soft/WRCFree_$version.zip",
                 "extract_dir": "Wise Registry Cleaner"
             }
         }
