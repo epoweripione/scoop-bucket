@@ -7,7 +7,7 @@
         "64bit": {
             "url": "https://downloads.wisecleaner.com/soft/WRCFree_10.5.1.696.zip",
             "hash": "06a534271189fc3cd769bcc34308dbc9030ab4521a88258f221c4c4f1078b50b",
-            "extract_dir": "Wise Registry Cleaner"
+            "extract_dir": "WDCFree\\Wise Disk Cleaner"
         }
     },
     "bin": "WiseRegCleaner.exe",
@@ -25,7 +25,7 @@
         "architecture": {
             "64bit": {
                 "url": "https://downloads.wisecleaner.com/soft/WRCFree_$version.zip",
-                "extract_dir": "Wise Registry Cleaner"
+                "extract_dir": "WDCFree\\Wise Disk Cleaner"
             }
         }
     }
