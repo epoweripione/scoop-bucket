@@ -2,9 +2,9 @@
     "homepage": "https://im.qq.com/pcqq",
     "description": "QQ by Tencent",
     "license": "Commercial",
-    "version": "9.5.0",
+    "version": "9.5.1",
     "url": "https://down.qq.com/qqweb/PCQQ/PCQQ_EXE/PCQQ2021.exe",
-    "hash": "32391353e866283560b8fcfb42ea64954ad97549914bcae530af9b6352ca9785",
+    "hash": "90e7945a7dcaaf7986953c2074a20ab208c5b2fed17d8cf92a1ed886f6145121",
     "installer": {
         "script": "Start-Process -FilePath \"$dir\\$fname\" -Verb RunAs | Wait-Process"
     },
