@@ -1,12 +1,12 @@
 {
-    "version": "97.0.4670.0-r931446",
+    "version": "97.0.4673.0-r932341",
     "description": "Browser aiming for safer, faster, and more stable way for all users to experience the web.",
     "license": "BSD-3-Clause",
     "homepage": "https://www.chromium.org",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/RobRich999/Chromium_Clang/releases/download/v97.0.4670.0-r931446-win64-avx/chrome.zip",
-            "hash": "sha1:5618bd508991f96198df0f8bbad4dc2f73ed9ee5",
+            "url": "https://github.com/RobRich999/Chromium_Clang/releases/download/v97.0.4673.0-r932341-win64-avx/chrome.zip",
+            "hash": "sha1:227b66d79d7c9a96f49c35519ae3a90a20f71ad2",
             "extract_dir": "chrome-win32"
         }
     },
