@@ -4,6 +4,7 @@
     "homepage": "https://github.com/googlefonts/noto-emoji",
     "url": "https://mirrors.tuna.tsinghua.edu.cn/github-release/googlefonts/noto-emoji/LatestRelease/repo-snapshot.tar.gz#/noto-emoji.tar.gz",
     "hash": "52e1e34144428698b8f75a555fabdd8d1b7366990916ec19bbc22e52bc1f9046",
+    "depends": "sudo",
     "installer": {
         "script": [
             "if(!(is_admin)) { error \"Admin rights are required, please run 'sudo scoop install $app'\"; exit 1 }",
