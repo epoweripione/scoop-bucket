@@ -2,13 +2,9 @@
     "version": "5.2.0",
     "license": "MIT",
     "homepage": "https://github.com/epoweripione/terminal-custom",
-    "url": "https://github.com/epoweripione/terminal-custom/releases/download/v5.2.0/FiraCode-Mono.zip",
+    "url": "https://github.com/epoweripione/fonts/releases/download/v0.1.0/FiraCode-Mono-5.2.0.zip",
     "hash": "cb6761695c3340f75b22d7c5276d4909078fee1b517b288bdcab7bfff8600d2e",
-    "checkver": "github",
     "depends": "sudo",
-    "autoupdate": {
-        "url": "https://github.com/epoweripione/terminal-custom/releases/download/v$version/FiraCode-Mono.zip"
-    },
     "installer": {
         "script": [
             "if(!(is_admin)) { error \"Admin rights are required, please run 'sudo scoop install $app'\"; exit 1 }",
@@ -35,5 +31,12 @@
             "}",
             "Write-Host \"The '$($app.Replace('-NF', ''))' Font family has been uninstalled and will not be present after restarting your computer.\" -Foreground Magenta"
         ]
+    },
+    "checkver": {
+        "url": "https://github.com/epoweripione/fonts/blob/main/README.md",
+        "regex": "FiraCode-Mono-([\\d.]+)\\.zip"
+    },
+    "autoupdate": {
+        "url": "https://github.com/epoweripione/fonts/releases/download/v0.1.0/FiraCode-Mono-$version.zip"
     }
 }
