@@ -5,6 +5,7 @@
     "homepage": "https://github.com/be5invis/Sarasa-Gothic",
     "url": "https://mirrors.tuna.tsinghua.edu.cn/github-release/be5invis/Sarasa-Gothic/LatestRelease/sarasa-gothic-ttf-0.35.0.7z#/dl.7z_",
     "hash": "33f8d68692224907dd97ddea4bbab1c2af20b635e7eb0b05120adfdb81df2b51",
+    "depends": "sudo",
     "installer": {
         "script": [
             "if(!(is_admin)) { error \"Admin rights are required, please run 'sudo scoop install $app'\"; exit 1 }",
