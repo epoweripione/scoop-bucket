@@ -4,6 +4,7 @@
     "homepage": "https://github.com/googlefonts/noto-cjk",
     "url": "https://mirrors.tuna.tsinghua.edu.cn/github-release/googlefonts/noto-cjk/Noto%20CJK%20v20201206%20as%20of%202020.12.06/repo-snapshot.tar.gz#/noto-cjk.tar.gz",
     "hash": "1ea05d18482b9573a4226e3723fb71b7c7ece56989acd5cd2194017545764b91",
+    "depends": "sudo",
     "installer": {
         "script": [
             "if(!(is_admin)) { error \"Admin rights are required, please run 'sudo scoop install $app'\"; exit 1 }",
