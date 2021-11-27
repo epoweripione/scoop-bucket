@@ -24,7 +24,7 @@
     ],
     "checkver": {
         "url": "https://raw.githubusercontent.com/RobRich999/Chromium_Clang/master/README.md",
-        "regex": "v([\\d.]+-r\\d+)-win64-avx"
+        "regex": "v([\\d.]+-r\\d+)-win64-avx\\s+"
     },
     "autoupdate": {
         "architecture": {
