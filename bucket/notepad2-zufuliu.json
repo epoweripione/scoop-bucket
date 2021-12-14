@@ -5,12 +5,12 @@
     "homepage": "https://github.com/zufuliu/notepad2",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/zufuliu/notepad2/releases/download/v4.21.11r3986/Notepad2_zh-Hant_x64_v4.21.11r3986.zip",
-            "hash": "f6b0de2ef275a765335dfb969e95bb58846bb813ca934ae2855153350f03ea29"
+            "url": "https://github.com/zufuliu/notepad2/releases/download/v4.21.11r3986/Notepad2_zh-Hans_x64_v4.21.11r3986.zip",
+            "hash": "76bf41201bba441c95b7b5f5ddbfadbfb0a901e17d17c4afd90840812be3c163"
         },
         "32bit": {
-            "url": "https://github.com/zufuliu/notepad2/releases/download/v4.21.11r3986/Notepad2_zh-Hant_Win32_v4.21.11r3986.zip",
-            "hash": "dc941937569755db2563258b6eba42a3819c6d461b5dd199709ab0b07f7b4a60"
+            "url": "https://github.com/zufuliu/notepad2/releases/download/v4.21.11r3986/Notepad2_zh-Hans_Win32_v4.21.11r3986.zip",
+            "hash": "f11fbfe2ae357fc95469b1515118d8155bb85533fafed671bac37c42e410ba0b"
         }
     },
     "bin": "Notepad2.exe",
@@ -32,10 +32,10 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/zufuliu/notepad2/releases/download/v$version/Notepad2_zh-Hant_x64_v$version.zip"
+                "url": "https://github.com/zufuliu/notepad2/releases/download/v$version/Notepad2_zh-Hans_x64_v$version.zip"
             },
             "32bit": {
-                "url": "https://github.com/zufuliu/notepad2/releases/download/v$version/Notepad2_zh-Hant_Win32_v$version.zip"
+                "url": "https://github.com/zufuliu/notepad2/releases/download/v$version/Notepad2_zh-Hans_Win32_v$version.zip"
             }
         }
     }
