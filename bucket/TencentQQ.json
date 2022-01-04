@@ -2,17 +2,17 @@
     "homepage": "https://im.qq.com/pcqq",
     "description": "QQ by Tencent",
     "license": "Commercial",
-    "version": "9.5.3",
-    "url": "https://down.qq.com/qqweb/PCQQ/PCQQ_EXE/PCQQ2021.exe",
-    "hash": "df34a56bc46673c8762e324fc498d5b9808e53aa078ce3ee9278a1ab633ba003",
+    "version": "9.5.4.28063",
+    "url": "https://dldir1.qq.com/qqfile/qq/PCQQ9.5.4/QQ9.5.4.28063.exe",
+    "hash": "b0987e17acbc6983d8a413c16d5f95f0d17a0cee2fc814e4fa622091ffc5d5b5",
     "installer": {
         "script": "Start-Process -FilePath \"$dir\\$fname\" -Verb RunAs | Wait-Process"
     },
     "checkver": {
         "url": "https://im.qq.com/pcqq",
-        "regex": "版 ([\\d.]+)"
+        "regex": "QQ([\\d.]+)\\.exe"
     },
     "autoupdate": {
-        "url": "https://down.qq.com/qqweb/PCQQ/PCQQ_EXE/PCQQ2021.exe"
+        "url": "https://dldir1.qq.com/qqfile/qq/PCQQ$majorVersion.$minorVersion.$patchVersion/QQ$version.exe"
     }
 }
