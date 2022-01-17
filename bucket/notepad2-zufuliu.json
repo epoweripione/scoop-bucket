@@ -1,16 +1,16 @@
 {
-    "version": "4.21.11r3986",
+    "version": "4.22.01",
     "description": "Notepad2 and metapath - Notepad2 is a modified version (fork) of Notepad2-mod. metapath is a bug-fixed version of original metapath.",
     "license": "BSD",
     "homepage": "https://github.com/zufuliu/notepad2",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/zufuliu/notepad2/releases/download/v4.21.11r3986/Notepad2_zh-Hans_x64_v4.21.11r3986.zip",
-            "hash": "76bf41201bba441c95b7b5f5ddbfadbfb0a901e17d17c4afd90840812be3c163"
+            "url": "https://github.com/zufuliu/notepad2/releases/download/v4.22.01.4056/Notepad2_zh-Hans_x64_v4.22.01r4056.zip",
+            "hash": "ee301972324303d278acce12e7519afb289e22f36027af1ec737cc2c6d2ef46b"
         },
         "32bit": {
-            "url": "https://github.com/zufuliu/notepad2/releases/download/v4.21.11r3986/Notepad2_zh-Hans_Win32_v4.21.11r3986.zip",
-            "hash": "f11fbfe2ae357fc95469b1515118d8155bb85533fafed671bac37c42e410ba0b"
+            "url": "https://github.com/zufuliu/notepad2/releases/download/v4.22.01.4056/Notepad2_zh-Hans_Win32_v4.22.01r4056.zip",
+            "hash": "a95602a55a6d26fe6cec9c860868b1e4d69b7f7d05b929d8c11c4152283da583"
         }
     },
     "bin": "Notepad2.exe",
@@ -27,15 +27,15 @@
     "checkver": {
         "url": "https://api.github.com/repos/zufuliu/notepad2/releases/latest",
         "jsonpath": "$.tag_name",
-        "regex": "v([\\d.]+r\\d+)"
+        "regex": "v(?<version>[\\d]+\\.[\\d]+\\.[\\d]+)\\.(?<revision>[\\d]+)"
     },
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/zufuliu/notepad2/releases/download/v$version/Notepad2_zh-Hans_x64_v$version.zip"
+                "url": "https://github.com/zufuliu/notepad2/releases/download/v$version.$matchRevision/Notepad2_zh-Hans_x64_v$versionr$matchRevision.zip"
             },
             "32bit": {
-                "url": "https://github.com/zufuliu/notepad2/releases/download/v$version/Notepad2_zh-Hans_Win32_v$version.zip"
+                "url": "https://github.com/zufuliu/notepad2/releases/download/v$version.$matchRevision/Notepad2_zh-Hans_Win32_v$versionr$matchRevision.zip"
             }
         }
     }
