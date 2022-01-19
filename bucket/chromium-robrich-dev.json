@@ -6,7 +6,7 @@
     "architecture": {
         "64bit": {
             "url": "https://github.com/RobRich999/Chromium_Clang/releases/download/v99.0.4835.0-r959866-win64-avx/chrome.zip",
-            "hash": "sha1:9fdd12ee258334aa59db45d01db7f5e163514ba9",
+            "hash": "sha1:4f42b250101ecf66c1cb253d48bb2a48bd20129f",
             "extract_dir": "chrome-win32"
         }
     },
