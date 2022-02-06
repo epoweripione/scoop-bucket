@@ -1,9 +1,9 @@
 {
-    "version": "20201206",
+    "version": "2.004",
     "license": "OFL-1.1",
     "homepage": "https://github.com/googlefonts/noto-cjk",
-    "url": "https://mirrors.tuna.tsinghua.edu.cn/github-release/googlefonts/noto-cjk/Noto%20CJK%20v20201206%20as%20of%202020.12.06/repo-snapshot.tar.gz#/noto-cjk.tar.gz",
-    "hash": "1ea05d18482b9573a4226e3723fb71b7c7ece56989acd5cd2194017545764b91",
+    "url": "https://mirrors.tuna.tsinghua.edu.cn/github-release/googlefonts/noto-cjk/LatestRelease/03_NotoSansCJK-OTC.zip",
+    "hash": "c5e1a3289a6b72adfbc17364cfa1e308a4bbd557968f3761f14ba9545058efa6",
     "depends": "sudo",
     "installer": {
         "script": [
@@ -39,9 +39,9 @@
     },
     "checkver": {
         "url": "https://mirrors.tuna.tsinghua.edu.cn/github-release/googlefonts/noto-cjk/",
-        "regex": "Noto CJK v([\\d.]+) as of (?<releasedate>[\\d.]+)"
+        "regex": "Noto Sans CJK Version ([\\d.]+)"
     },
     "autoupdate": {
-        "url": "https://mirrors.tuna.tsinghua.edu.cn/github-release/googlefonts/noto-cjk/Noto%20CJK%20v$version%20as%20of%20$matchReleasedate/repo-snapshot.tar.gz#/noto-cjk.tar.gz"
+        "url": "https://mirrors.tuna.tsinghua.edu.cn/github-release/googlefonts/noto-cjk/LatestRelease/03_NotoSansCJK-OTC.zip"
     }
 }
