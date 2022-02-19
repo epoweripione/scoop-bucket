@@ -22,7 +22,8 @@
     ],
     "persist": [
         "Notepad2.ini",
-        "metapath.ini"
+        "metapath.ini",
+        "Notepad2 DarkTheme.ini"
     ],
     "checkver": {
         "url": "https://api.github.com/repos/zufuliu/notepad2/releases/latest",
