@@ -1,9 +1,9 @@
 {
-    "version": "5.2.0",
+    "version": "6.2.0",
     "license": "MIT",
     "homepage": "https://github.com/epoweripione/terminal-custom",
-    "url": "https://github.com/epoweripione/fonts/releases/download/v0.1.0/FiraCode-Mono-5.2.0.zip",
-    "hash": "cb6761695c3340f75b22d7c5276d4909078fee1b517b288bdcab7bfff8600d2e",
+    "url": "https://github.com/epoweripione/fonts/releases/download/v0.1.0/FiraCode-Mono-6.2.0.zip",
+    "hash": "a8c42b38e6dbee505b77cffe60c30e0fa5c9c2614ad34185b458d12b43ffaabd",
     "depends": "sudo",
     "installer": {
         "script": [
