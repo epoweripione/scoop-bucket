@@ -1,9 +1,9 @@
 {
     "homepage": "https://www.digitalvolcano.co.uk/duplicatecleaner.html",
-    "version": "5.14",
+    "version": "5.15",
     "license": "freeware",
     "url": "https://www.digitalvolcano.co.uk/download/DuplicateCleaner-Setup-5.msi#/dl.7z",
-    "hash": "719eedadcc08b70e42e38bd0cc888cc0090dc1b3aca1f7cf2d4f016baa362ca0",
+    "hash": "ce9e27bee6b217e01f92e2dc3254e03fbf92f4ca157bc7778c52e70f93debcf5",
     "bin": "DuplicateCleaner.exe",
     "shortcuts": [
         [
