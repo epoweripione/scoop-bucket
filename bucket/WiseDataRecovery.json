@@ -1,12 +1,12 @@
 {
-    "version": "6.0.2.489",
+    "version": "6.0.3.490",
     "description": "Professional Data Recovery Tool",
     "license": "https://www.wisecleaner.com",
     "homepage": "https://www.wisecleaner.com",
     "architecture": {
         "64bit": {
-            "url": "https://downloads.wisecleaner.com/soft/WDR_6.0.2.489.zip",
-            "hash": "df9b757cdd651d863ff6f34d496bc0f92f81a6075949ead274cf53f2845f0be5",
+            "url": "https://downloads.wisecleaner.com/soft/WDR_6.0.3.490.zip",
+            "hash": "27d9a6eef34c953ae4f58580d086f74ed2644d009844b3f6c1e2779d25367b52",
             "extract_dir": "Wise Data Recovery_x64"
         }
     },
