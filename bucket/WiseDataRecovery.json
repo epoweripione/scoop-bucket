@@ -7,7 +7,7 @@
         "64bit": {
             "url": "https://downloads.wisecleaner.com/soft/WDR_6.0.3.490.zip",
             "hash": "27d9a6eef34c953ae4f58580d086f74ed2644d009844b3f6c1e2779d25367b52",
-            "extract_dir": "Wise Data Recovery_x64"
+            "extract_dir": "WDR_6.0.3.490\\WDR_6.0.3.490(x64)"
         }
     },
     "bin": "WiseDataRecovery.exe",
@@ -25,7 +25,7 @@
         "architecture": {
             "64bit": {
                 "url": "https://downloads.wisecleaner.com/soft/WDR_$version.zip",
-                "extract_dir": "Wise Data Recovery_x64"
+                "extract_dir": "WDR_$version\\WDR_$version(x64)"
             }
         }
     }
