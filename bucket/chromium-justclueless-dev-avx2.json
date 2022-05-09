@@ -23,7 +23,7 @@
     ],
     "installer": {
         "script": [
-            "Invoke-ExternalCommand 7z -ArgumentList('e', \"$dir\\Chrome.7z\", \"-o$dir\") | Out-Null",
+            "Invoke-ExternalCommand 7z -ArgumentList('x', \"$dir\\Chrome.7z\", \"-o$dir\") | Out-Null",
             "Get-ChildItem \"$dir\\Chrome-bin\" -Recurse | Move-Item -Destination \"$dir\"",
             "Remove-Item -Path \"$dir\\Chrome.7z\"",
             "Remove-Item -Path \"$dir\\Chrome-bin\""
