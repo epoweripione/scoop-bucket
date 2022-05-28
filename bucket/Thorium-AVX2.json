@@ -1,13 +1,13 @@
 {
-    "version": "104.0.5078.0",
+    "version": "104.0.5084.0",
     "description": "Chromium fork for linux named after radioactive element No. 90.",
     "license": "GNU General Public License v3.0",
     "homepage": "https://alex313031.blogspot.com/",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/Alex313031/Thorium-AVX2/releases/download/M104.0.5078.0/Thorium_AVX2_104.0.5078.0.zip",
-            "hash": "1331e9ee0d066caf3ad108944755aa8a4dc53a1be15e159e8be35f18a3d0b129",
-            "extract_dir": "Thorium_AVX2_104.0.5078.0"
+            "url": "https://github.com/Alex313031/Thorium-AVX2/releases/download/M104.0.5084.0/Thorium_AVX2_104.0.5084.0.zip",
+            "hash": "0aed6845a135d29ce6a186703fd8e810145f501bb10f6e6ecc5195fa9cd9af31",
+            "extract_dir": "Thorium_AVX2_104.0.5084.0"
         }
     },
     "bin": [
