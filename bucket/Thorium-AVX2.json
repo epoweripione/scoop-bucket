@@ -22,6 +22,9 @@
             "Thorium-AVX2"
         ]
     ],
+    "persist": [
+        "USER_DATA"
+    ],
     "checkver": {
         "url": "https://api.github.com/repos/Alex313031/Thorium-AVX2/releases/latest",
         "jsonpath": "$.tag_name",
