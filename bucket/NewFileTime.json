@@ -1,12 +1,12 @@
 {
-    "version": "6.16",
+    "version": "6.22",
     "description": "NewFileTime is a small but effective tool that provides you easy access to corrections and manipulation of timestamp for any file and folder on your system.Several files and/or folders can be dispatched at the same time",
     "license": "https://www.softwareok.com",
     "homepage": "https://www.softwareok.com",
     "architecture": {
         "64bit": {
             "url": "https://www.softwareok.com/Download/NewFileTime_x64.zip",
-            "hash": "00032a9e297047c4dcafa650044f7ac9dd212a2d6c0febf14d73542aface6441"
+            "hash": "cc0ddd09b5d8f54a96be2e62ebf1f51359c355eb33650f269250e90eab339d6e"
         }
     },
     "bin": "NewFileTime_x64.exe",
