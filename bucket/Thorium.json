@@ -1,13 +1,13 @@
 {
-    "version": "104.0.5086.0",
+    "version": "105.0.5114.0",
     "description": "Chromium fork for linux named after radioactive element No. 90.",
     "license": "GNU General Public License v3.0",
     "homepage": "https://alex313031.blogspot.com/",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/Alex313031/Thorium-Win/releases/download/M104.0.5086.0/Thorium_104.0.5086.0.zip",
-            "hash": "982b72ed731f9c71d8d8cdb10f62b0358a7b11a4ebe719fddbe25da091594bf0",
-            "extract_dir": "Thorium_104.0.5086.0"
+            "url": "https://github.com/Alex313031/Thorium-Win/releases/download/M105.0.5114.0/Thorium_105.0.5114.0.zip",
+            "hash": "adfd52f807b5556b7ea8160e02d4c9792a48de33740c54fb57c1e8c0a4834a66",
+            "extract_dir": "Thorium_105.0.5114.0"
         }
     },
     "bin": [
@@ -22,9 +22,7 @@
             "Thorium"
         ]
     ],
-    "persist": [
-        "USER_DATA"
-    ],
+    "persist": "USER_DATA",
     "checkver": {
         "url": "https://api.github.com/repos/Alex313031/Thorium-Win/releases/latest",
         "jsonpath": "$.tag_name",
