@@ -7,7 +7,7 @@
         "64bit": {
             "url": "https://github.com/Alex313031/Thorium-AVX2/releases/download/M105.0.5166.0/Thorium_.AVX2_105.0.5166.0.zip",
             "hash": "090b3b79b01df610ad3fc0e402ce6e04ee85b91aa9f221b8abc37b1d98321b5f",
-            "extract_dir": "Thorium_AVX2_105.0.5166.0"
+            "extract_dir": "Thorium_ AVX2_105.0.5166.0"
         }
     },
     "bin": [
