@@ -2,15 +2,15 @@
     "homepage": "https://u.tools/",
     "description": "Your productive tools set and launcher.",
     "license": "Unknown",
-    "version": "3.0.1",
+    "version": "3.0.2",
     "architecture": {
         "64bit": {
-            "url": "https://publish.u-tools.cn/version2/uTools-3.0.1.exe#/dl.7z",
-            "hash": "e2af18e2b45697f3a7dcfe3e3bf2ccd090f557092f01348619f88ed9447bb95f"
+            "url": "https://publish.u-tools.cn/version2/uTools-3.0.2.exe#/dl.7z",
+            "hash": "08e85fcc65b69e81eefd2b60435fe55c79b120d5f0c23a4868aa96e9ef03a9f9"
         },
         "32bit": {
-            "url": "https://publish.u-tools.cn/version2/uTools-3.0.1-ia32.exe#/dl.7z",
-            "hash": "d5696bd2f1140bb52ff500c1743ec7607fbec4f4292c57829d730dba46c9b250"
+            "url": "https://publish.u-tools.cn/version2/uTools-3.0.2-ia32.exe#/dl.7z",
+            "hash": "88e0da918a90cf8572ffa30988dcb7169bf35852341c60e3afe9aa35dc32ef05"
         }
     },
     "installer": {
