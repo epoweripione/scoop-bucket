@@ -6,7 +6,8 @@
     "architecture": {
         "64bit": {
             "url": "https://github.com/Alex313031/Thorium-AVX2/releases/download/M107.0.5256.0/Thorium_AVX2_107.0.5256.0.zip",
-            "hash": "385ed9709ec4202d48723f38550a62bdd02d89b1d3605faacda7c1d067f82467"
+            "hash": "385ed9709ec4202d48723f38550a62bdd02d89b1d3605faacda7c1d067f82467",
+            "extract_dir": "Thorium_AVX2_107.0.5256.0"
         }
     },
     "bin": [
@@ -30,7 +31,8 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/Alex313031/Thorium-AVX2/releases/download/M$version/Thorium_AVX2_$version.zip"
+                "url": "https://github.com/Alex313031/Thorium-AVX2/releases/download/M$version/Thorium_AVX2_$version.zip",
+                "extract_dir": "Thorium_AVX2_$version"
             }
         }
     }
