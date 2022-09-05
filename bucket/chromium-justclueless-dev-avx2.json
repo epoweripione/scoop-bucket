@@ -1,12 +1,12 @@
 {
-    "version": "107.0.5260.0-r0-AVX2",
+    "version": "107.0.5277.0-r0-AVX2",
     "description": "Browser aiming for safer, faster, and more stable way for all users to experience the web.",
     "license": "BSD-3-Clause",
     "homepage": "https://www.chromium.org",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/justclueless/chromium-win64/releases/download/v107.0.5260.0-r0-AVX2/chrome.packed.7z",
-            "hash": "3a5cf2fa60b08c19a86752f2206566ed44fb771b690e64c04137bbb99f98a8ab"
+            "url": "https://github.com/justclueless/chromium-win64/releases/download/v107.0.5277.0-r0-AVX2/chrome.packed.7z",
+            "hash": "a77338da39e59f2201be0d50ec6cf3e9b8165dcf2218e946342350104f204bb4"
         }
     },
     "bin": [
