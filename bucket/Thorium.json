@@ -6,8 +6,7 @@
     "architecture": {
         "64bit": {
             "url": "https://github.com/Alex313031/Thorium-Win/releases/download/M108.0.5314.0/Thorium_108.0.5314.0.zip",
-            "hash": "7220ae694b050841b9202ef2b84e86b139de8e7af52fde120075798be80b5ac9",
-            "extract_dir": "Thorium_108.0.5314.0"
+            "hash": "7220ae694b050841b9202ef2b84e86b139de8e7af52fde120075798be80b5ac9"
         }
     },
     "bin": [
@@ -31,8 +30,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/Alex313031/Thorium-Win/releases/download/M$version/Thorium_$version.zip",
-                "extract_dir": "Thorium_$version"
+                "url": "https://github.com/Alex313031/Thorium-Win/releases/download/M$version/Thorium_$version.zip"
             }
         }
     }
