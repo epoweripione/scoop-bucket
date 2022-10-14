@@ -1,12 +1,12 @@
 {
-    "version": "108.0.5335.0-r1053948",
+    "version": "108.0.5357.0-r1058455",
     "description": "Browser aiming for safer, faster, and more stable way for all users to experience the web.",
     "license": "BSD-3-Clause",
     "homepage": "https://www.chromium.org",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/RobRich999/Chromium_Clang/releases/download/v108.0.5335.0-r1053948-win64-avx/chrome.zip",
-            "hash": "sha1:3c755470311d010ac4af8035ba0f6bd6895b2e74",
+            "url": "https://github.com/RobRich999/Chromium_Clang/releases/download/v108.0.5357.0-r1058455-win64-avx/chrome.zip",
+            "hash": "sha1:245a744e4e39c0e21977511884fc8862ce87d5cb",
             "extract_dir": "chrome-win32"
         }
     },
