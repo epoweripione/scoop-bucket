@@ -2,14 +2,14 @@
     "homepage": "https://tim.qq.com/",
     "description": "TIM by Tencent",
     "license": "Commercial",
-    "version": "3.3.9.22051",
-    "url": "https://dldir1.qq.com/qqfile/qq/TIM3.3.9/TIM3.3.9.22051.exe",
-    "hash": "d9ba543a674573d460446749a9864b6e0c9002c9ee552796de112a90a002735b",
+    "version": "3.4.3.22064",
+    "url": "https://dldir1.qq.com/qqfile/qq/TIM3.4.3/TIM3.4.3.22064.exe",
+    "hash": "784a1be400998ca27b89adef14813d4eb5573be21ed39af6c979b6ea026ff995",
     "installer": {
         "script": "Start-Process -FilePath \"$dir\\$fname\" -Verb RunAs | Wait-Process"
     },
     "checkver": {
-        "url": "https://qzonestyle.gtimg.cn/qzone/qzactStatics/configSystem/data/1605/config1.js",
+        "url": "https://im.qq.com/rainbow/TIMDownload/",
         "regex": "TIM(?<version>[\\d.]+)\\.exe"
     },
     "autoupdate": {
