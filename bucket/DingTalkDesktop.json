@@ -2,14 +2,15 @@
     "homepage": "https://www.dingtalk.com/",
     "description": "DingTalk Desktop",
     "license": "Commercial",
-    "version": "6.0.3.22302",
-    "url": "https://dtapp-pub.dingtalk.com/dingtalk-desktop/win_installer/Release/DingTalk_v6.0.3.22302.exe",
-    "hash": "349c17d7370bbe16759da2b073506c319237a0766cc3558302645d4fc2dc6ffb",
+    "version": "7.1.0.10199110",
+    "url": "https://dtapp-pub.dingtalk.com/dingtalk-desktop/win_installer/Release/DingTalk_v7.1.0.10199110.exe",
+    "hash": "2d874f7999bdbc1340800d1912c759a38869f50cc9217dfe8a215135ee38d714",
     "installer": {
         "script": "Start-Process -FilePath \"$dir\\$fname\" -Verb RunAs | Wait-Process"
     },
     "checkver": {
-        "url": "https://page.dingtalk.com/wow/dingtalk/act/download",
+        "url": "https://im.dingtalk.com/manifest/x64/website/vista_later.json",
+        "jsonpath": "$.win.install.url",
         "regex": "DingTalk_v([\\d.]+)\\.exe"
     },
     "autoupdate": {
