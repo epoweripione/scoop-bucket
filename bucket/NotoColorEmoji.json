@@ -1,9 +1,9 @@
 {
-    "version": "15.0",
+    "version": "15.1",
     "license": "Apache-2.0",
     "homepage": "https://github.com/googlefonts/noto-emoji",
     "url": "https://mirrors.tuna.tsinghua.edu.cn/github-release/googlefonts/noto-emoji/LatestRelease/repo-snapshot.tar.gz#/noto-emoji.tar.gz",
-    "hash": "e1eec71aee8183a91f3f4896fb60d85908a93783d85822f61a518e967e56f4d5",
+    "hash": "15c2f819ca5473861d4157fff06b4b588a500bc22a0f4c74890116b9397a83f6",
     "depends": "sudo",
     "installer": {
         "script": [
