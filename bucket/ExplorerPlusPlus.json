@@ -1,6 +1,6 @@
 {
     "homepage": "https://explorerplusplus.com/",
-    "version": "1.4.0.2276",
+    "version": "1.4.0.2268",
     "license": "freeware",
     "architecture": {
         "64bit": {
@@ -39,8 +39,8 @@
         "Remove-Item -Path \"$dir\\explorer++_translations.zip\" -Recurse -Force -Confirm:$false"
     ],
     "checkver": {
-        "url": "https://ci.appveyor.com/api/projects/derceg/explorerplusplus",
-        "jsonpath": "$.build.version"
+        "url": "https://download.explorerplusplus.com/dev/latest_version.txt",
+        "regex": "([\\d\\.]+)"
     },
     "autoupdate": {
         "architecture": {
