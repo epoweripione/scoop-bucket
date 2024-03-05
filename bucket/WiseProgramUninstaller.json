@@ -7,7 +7,7 @@
         "64bit": {
             "url": "https://downloads.wisecleaner.com/soft/WPU_3.1.9.263.zip",
             "hash": "035249e427f14f0564876eddb60678422e4fb5862282d71b87ec114aa6913e30",
-            "extract_dir": "WPU_3.1.9.263"
+            "extract_dir": "WPUSetup_3.1.9.263"
         }
     },
     "bin": "WiseProgramUninstaller.exe",
@@ -25,7 +25,7 @@
         "architecture": {
             "64bit": {
                 "url": "https://downloads.wisecleaner.com/soft/WPU_$version.zip",
-                "extract_dir": "WPU_$version"
+                "extract_dir": "WPUSetup_$version"
             }
         }
     }
