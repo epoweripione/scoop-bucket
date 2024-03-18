@@ -1,15 +1,15 @@
 {
     "homepage": "https://explorerplusplus.com/",
-    "version": "1.5.0.2341",
+    "version": "1.5.0.2352",
     "license": "freeware",
     "architecture": {
         "64bit": {
             "url": "https://download.explorerplusplus.com/dev/latest/explorerpp_x64.zip",
-            "hash": "9d6ac5513cbca0ea0e6b0515c26e31ae8823af700eacde3818e55f47c673cd9e"
+            "hash": "31f0142df769fa34f7b8a0b331c2ab59d47f880bc9c5d85c167eea09a5941579"
         },
         "32bit": {
             "url": "https://download.explorerplusplus.com/dev/latest/explorerpp_x86.zip",
-            "hash": "e35b6cd35dcad84dac873d143a432453552aee0951d0e5d2f5c18bed762f2812"
+            "hash": "b4d9cc2505cb317f20a906ef13ff7910e0f2b42e646f8daa2429a66afbc8436a"
         }
     },
     "bin": [
