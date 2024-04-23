@@ -2,9 +2,9 @@
     "homepage": "https://im.qq.com/pcqq/index.shtml",
     "description": "QQ built with QQNT by Tencent",
     "license": "Commercial",
-    "version": "9.9.9_240412",
-    "url": "https://dldir1.qq.com/qqfile/qq/QQNT/Windows/QQ_9.9.9_240412_x64_01.exe",
-    "hash": "2c0ca20124531a3ddf2213ba488c0faae52d3f3dfac32b3ecc6b533dddd9def2",
+    "version": "9.9.9_240422",
+    "url": "https://dldir1.qq.com/qqfile/qq/QQNT/Windows/QQ_9.9.9_240422_x64_01.exe",
+    "hash": "f53c83ed838c28b1f13c5ee8bdf6109938850c53cdcacf21ae047a5eda08da5c",
     "installer": {
         "script": "Start-Process -FilePath \"$dir\\$fname\" -Verb RunAs | Wait-Process"
     },
