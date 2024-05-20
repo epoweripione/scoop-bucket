@@ -1,16 +1,16 @@
 {
-    "version": "4.24.03",
+    "version": "4.24.05",
     "description": "Notepad2 and metapath - Notepad2 is a modified version (fork) of Notepad2-mod. metapath is a bug-fixed version of original metapath.",
     "license": "BSD",
     "homepage": "https://github.com/zufuliu/notepad2",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/zufuliu/notepad2/releases/download/v4.24.03r5146/Notepad2_zh-Hans_x64_v4.24.03r5146.zip",
-            "hash": "c6c9d3e082d9142be3b2b26d1810fcc7d053d013af388de80cf5d32f0e41f221"
+            "url": "https://github.com/zufuliu/notepad2/releases/download/v4.24.05r5242/Notepad2_zh-Hans_x64_v4.24.05r5242.zip",
+            "hash": "8ba1081b24220c21fffc96d8a855efeff5cc07718933d0685f3be28d8377744a"
         },
         "32bit": {
-            "url": "https://github.com/zufuliu/notepad2/releases/download/v4.24.03r5146/Notepad2_zh-Hans_Win32_v4.24.03r5146.zip",
-            "hash": "c6c224aca050dd3fe12ea8b02396b9ea5656f70971d5556ac5592cc76dccdfbe"
+            "url": "https://github.com/zufuliu/notepad2/releases/download/v4.24.05r5242/Notepad2_zh-Hans_Win32_v4.24.05r5242.zip",
+            "hash": "49218c44029c933c0c379cb3bb0f0daffc5dc874a9aecc8c6f186c019fb51eeb"
         }
     },
     "bin": "Notepad2.exe",
