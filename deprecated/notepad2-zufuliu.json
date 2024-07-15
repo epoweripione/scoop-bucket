@@ -1,0 +1,43 @@
+{
+    "version": "4.24.05",
+    "description": "Notepad2 and metapath - Notepad2 is a modified version (fork) of Notepad2-mod. metapath is a bug-fixed version of original metapath.",
+    "license": "BSD",
+    "homepage": "https://github.com/zufuliu/notepad2",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/zufuliu/notepad2/releases/download/v4.24.05r5242/Notepad2_zh-Hans_x64_v4.24.05r5242.zip",
+            "hash": "8ba1081b24220c21fffc96d8a855efeff5cc07718933d0685f3be28d8377744a"
+        },
+        "32bit": {
+            "url": "https://github.com/zufuliu/notepad2/releases/download/v4.24.05r5242/Notepad2_zh-Hans_Win32_v4.24.05r5242.zip",
+            "hash": "49218c44029c933c0c379cb3bb0f0daffc5dc874a9aecc8c6f186c019fb51eeb"
+        }
+    },
+    "bin": "Notepad2.exe",
+    "shortcuts": [
+        [
+            "Notepad2.exe",
+            "Notepad2-zufuliu"
+        ]
+    ],
+    "persist": [
+        "Notepad2.ini",
+        "metapath.ini",
+        "Notepad2 DarkTheme.ini"
+    ],
+    "checkver": {
+        "url": "https://api.github.com/repos/zufuliu/notepad2/releases/latest",
+        "jsonpath": "$.tag_name",
+        "regex": "v(?<version>[\\d]+\\.[\\d]+\\.[\\d]+)r(?<revision>[\\d]+)"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/zufuliu/notepad2/releases/download/v$versionr$matchRevision/Notepad2_zh-Hans_x64_v$versionr$matchRevision.zip"
+            },
+            "32bit": {
+                "url": "https://github.com/zufuliu/notepad2/releases/download/v$versionr$matchRevision/Notepad2_zh-Hans_Win32_v$versionr$matchRevision.zip"
+            }
+        }
+    }
+}
