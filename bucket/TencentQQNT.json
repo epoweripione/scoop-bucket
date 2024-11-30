@@ -2,14 +2,14 @@
     "homepage": "https://im.qq.com/pcqq/index.shtml",
     "description": "QQ built with QQNT by Tencent",
     "license": "Commercial",
-    "version": "9.9.16_241112",
-    "url": "https://dldir1.qq.com/qqfile/qq/QQNT/Windows/QQ_9.9.16_241112_x64_01.exe",
-    "hash": "1a77884bc9e4ffcd7a30a1a118d4339d19b212c48bdfccdfa9f4b98e284cf99c",
+    "version": "9.9.16_241121",
+    "url": "https://dldir1.qq.com/qqfile/qq/QQNT/Windows/QQ_9.9.16_241121_x64_01.exe",
+    "hash": "59539f0c40f617a236c339830dbf52dd2dd0d3701306c3577fb927d90f070b6b",
     "installer": {
         "script": "Start-Process -FilePath \"$dir\\$fname\" -Verb RunAs | Wait-Process"
     },
     "checkver": {
-        "url": "https://qq-web.cdn-go.cn/im.qq.com_new/17c986ba/202411131950/windowsDownloadUrl.js",
+        "url": "https://qq-web.cdn-go.cn/im.qq.com_new/17c986ba/202411271148/windowsDownloadUrl.js",
         "regex": "QQNT/(?<revision>[\\d\\w]+)/QQ_(?<version>[\\d._\\-]+)_x64(?<vernum>[\\d\\w_\\-]*)\\.exe"
     },
     "autoupdate": {
