@@ -1,18 +1,18 @@
 {
-    "version": "25.02.06",
+    "version": "25.03.20",
     "license": "IPA-1.0",
     "homepage": "https://github.com/lxgw/LxgwNeoXiZhi-Screen",
     "url": [
-        "https://github.com/lxgw/LxgwNeoXiZhi-Screen/releases/download/25.02.06/LXGWNeoXiHeiScreen.ttf#/LXGWNeoXiHeiScreen.ttf",
-        "https://github.com/lxgw/LxgwNeoXiZhi-Screen/releases/download/25.02.06/LXGWNeoXiHeiScreenFull.ttf#/LXGWNeoXiHeiScreenFull.ttf",
-        "https://github.com/lxgw/LxgwNeoXiZhi-Screen/releases/download/25.02.06/LXGWNeoZhiSongScreen.ttf#/LXGWNeoZhiSongScreen.ttf",
-        "https://github.com/lxgw/LxgwNeoXiZhi-Screen/releases/download/25.02.06/LXGWNeoZhiSongScreenFull.ttf#/LXGWNeoZhiSongScreenFull.ttf"
+        "https://github.com/lxgw/LxgwNeoXiZhi-Screen/releases/download/25.03.20/LXGWNeoXiHeiScreen.ttf#/LXGWNeoXiHeiScreen.ttf",
+        "https://github.com/lxgw/LxgwNeoXiZhi-Screen/releases/download/25.03.20/LXGWNeoXiHeiScreenFull.ttf#/LXGWNeoXiHeiScreenFull.ttf",
+        "https://github.com/lxgw/LxgwNeoXiZhi-Screen/releases/download/25.03.20/LXGWNeoZhiSongScreen.ttf#/LXGWNeoZhiSongScreen.ttf",
+        "https://github.com/lxgw/LxgwNeoXiZhi-Screen/releases/download/25.03.20/LXGWNeoZhiSongScreenFull.ttf#/LXGWNeoZhiSongScreenFull.ttf"
     ],
     "hash": [
-        "4e588c5557f56d31b8bfa2be85595faba3ef1dbbbd9a4f195a52783e571a0f2e",
-        "09206f66948cb6f6cda0e0b8d69ff36dfb3c5ec738c1c8291c3edbd07fad1838",
-        "d7e86887c671b0f627ba1b5c056c61b3daad6a9728fe11267885c87aba947913",
-        "9cfcff93f631a19e1de7e83a4cfecf8e4af235430fd8961ed8beb5570d6c7d3d"
+        "a3baf6032c4de052845ab714c75680b8de71cc0b959bc029643a177461fd9c44",
+        "10fac4618111c732fdd7c03f77dde8b2e8eded3425cf3252534f8dc1866eaea0",
+        "de87d93a9ee22f5be60eddf35b8291a9ba53b20795c7b7baf3a3565de7c6d259",
+        "6fb94b3bdbcf27e802a8d99e06c177e20bc1f8b4ae9db9c16773cc3be9d8d2da"
     ],
     "installer": {
         "script": [
