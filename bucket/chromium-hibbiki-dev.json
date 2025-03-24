@@ -1,11 +1,11 @@
 {
-    "version": "134.0.6998.118-r1415337",
+    "version": "134.0.6998.166-r1415337",
     "description": "Chromium fork",
     "homepage": "https://github.com/Hibbiki/chromium-win64",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/Hibbiki/chromium-win64/releases/download/v134.0.6998.118-r1415337/chrome.sync.7z",
-            "hash": "360a671ebe81961d28a59ad373bd6b1a88a60a4c8e5021eb7ac2393f152c43c6",
+            "url": "https://github.com/Hibbiki/chromium-win64/releases/download/v134.0.6998.166-r1415337/chrome.sync.7z",
+            "hash": "4a69b4a183b698c9ee551a2ca98ed9e038571c777160506178a48917f8e927ec",
             "extract_dir": "Chrome-bin"
         }
     },
