@@ -1,12 +1,12 @@
 {
-    "version": "134.6998.118",
+    "version": "134.6998.170",
     "description": "Browser aiming for safer, faster, and more stable way for all users to experience the web.",
     "license": "BSD-3-Clause",
     "homepage": "https://www.chromium.org",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/macchrome/winchrome/releases/download/v134.6998.118-M134.0.6998.118-r1415337-Win64/ungoogled-chromium-134.0.6998.118-1_Win64.7z",
-            "hash": "8bf6d7f27ff4fcaafa3fd0be8f17cb18872264f5902bda95a343a58be2e6855e"
+            "url": "https://github.com/macchrome/winchrome/releases/download/v134.6998.170-M134.0.6998.170-r1415337-Win64/ungoogled-chromium-134.0.6998.170-1_Win64.7z",
+            "hash": "215a23caecef6b56eeda2bd4b7b81fecca95074f6272c4534952f19372e4f453"
         }
     },
     "bin": [
