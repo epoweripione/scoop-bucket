@@ -1,16 +1,16 @@
 {
-    "version": "2.611",
+    "version": "2.711",
     "license": "IPA-1.0",
     "homepage": "https://github.com/lxgw/lxgwbright-code",
     "url": [
-        "https://github.com/lxgw/LxgwBright-Code/releases/download/v2.611/LxgwBrightCode.7z",
-        "https://github.com/lxgw/LxgwBright-Code/releases/download/v2.611/LxgwBrightCodeGB.7z",
-        "https://github.com/lxgw/LxgwBright-Code/releases/download/v2.611/LxgwBrightCodeTC.7z"
+        "https://github.com/lxgw/LxgwBright-Code/releases/download/v2.711/LxgwBrightCode.7z",
+        "https://github.com/lxgw/LxgwBright-Code/releases/download/v2.711/LxgwBrightCodeGB.7z",
+        "https://github.com/lxgw/LxgwBright-Code/releases/download/v2.711/LxgwBrightCodeTC.7z"
     ],
     "hash": [
-        "de04a670e0c466fd440afab62dce602823acc7ab4d13b71e96f10b9c06ba1433",
-        "021c219379151b9e0b031ef9c885dc1622b6f1162e27f9ae1d9658e71704790a",
-        "3d5a3e05675341c3d773d99b57265d5bf73c038a26622705c88b846443dd2290"
+        "b0e410d28202b44320779429752c90e9c58870017c0c8e8d0200632adb0c2229",
+        "b9bee88e1131828522de7ec2161158b963d2539fcccbbdbd1aa3c80145912f3e",
+        "8f917ad422100af6879bbe023db520a220d04e2695563aea0238475bd3c2ac1a"
     ],
     "installer": {
         "script": [
