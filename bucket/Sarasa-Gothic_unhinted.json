@@ -1,9 +1,9 @@
 {
-    "version": "1.0.29",
+    "version": "1.0.30",
     "homepage": "https://github.com/be5invis/Sarasa-Gothic",
     "license": "OFL-1.1",
-    "url": "https://mirrors.tuna.tsinghua.edu.cn/github-release/be5invis/Sarasa-Gothic/LatestRelease/Sarasa-TTC-Unhinted-1.0.29.zip",
-    "hash": "d652f10650c2e32b0e0adfb98509ba039ea58469c4c431d45289987b22862e94",
+    "url": "https://mirrors.tuna.tsinghua.edu.cn/github-release/be5invis/Sarasa-Gothic/LatestRelease/Sarasa-TTC-Unhinted-1.0.30.zip",
+    "hash": "bdb869224b9a831ce8b52f0a46a0483dff5544334d775bd3fe63ab8683edaa8f",
     "installer": {
         "script": [
             "$currentBuildNumber = [int] (Get-ItemProperty \"HKLM:\\SOFTWARE\\Microsoft\\Windows NT\\CurrentVersion\").CurrentBuildNumber",
