@@ -1,16 +1,16 @@
 {
-    "version": "25.01",
+    "version": "25.05",
     "description": "Notepad4 (Notepad2++) is a light-weight Scintilla based text editor",
     "license": "BSD",
     "homepage": "https://github.com/zufuliu/notepad4",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/zufuliu/notepad4/releases/download/v25.01r5618/Notepad4_zh-Hans_AVX2_v25.01r5618.zip",
-            "hash": "326ece0deb9cd3eff610ee43416dab65437343d6d1f129ff177c15c96757781a"
+            "url": "https://github.com/zufuliu/notepad4/releases/download/v25.05r5670/Notepad4_zh-Hans_AVX2_v25.05r5670.zip",
+            "hash": "d84a51882f8472f905863a1364c896defcebaf725add47f21bb939030996286a"
         },
         "32bit": {
-            "url": "https://github.com/zufuliu/notepad4/releases/download/v25.01r5618/Notepad4_zh-Hans_Win32_v25.01r5618.zip",
-            "hash": "d1316fde4433c6c85429f9d718674ac9b7cc88261362d600ad09f5acf2a414ba"
+            "url": "https://github.com/zufuliu/notepad4/releases/download/v25.05r5670/Notepad4_zh-Hans_Win32_v25.05r5670.zip",
+            "hash": "6f5505dcd01ffe03b51ee04d9abe64bad1e0a5173e6bf330f12a665317859188"
         }
     },
     "bin": "Notepad4.exe",
