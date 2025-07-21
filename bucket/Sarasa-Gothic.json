@@ -1,9 +1,9 @@
 {
-    "version": "1.0.31",
+    "version": "1.0.32",
     "homepage": "https://github.com/be5invis/Sarasa-Gothic",
     "license": "OFL-1.1",
-    "url": "https://mirrors.tuna.tsinghua.edu.cn/github-release/be5invis/Sarasa-Gothic/LatestRelease/Sarasa-TTC-1.0.31.zip",
-    "hash": "ea355b7b7ee56e93e6373ca205be9f51faeedc467bd44728f41b9737381d403f",
+    "url": "https://mirrors.tuna.tsinghua.edu.cn/github-release/be5invis/Sarasa-Gothic/LatestRelease/Sarasa-TTC-1.0.32.7z",
+    "hash": "8258ee586f0e2a55ce03f006e0d4a3c473fb621bf026179facdb4a022af057b9",
     "installer": {
         "script": [
             "$currentBuildNumber = [int] (Get-ItemProperty \"HKLM:\\SOFTWARE\\Microsoft\\Windows NT\\CurrentVersion\").CurrentBuildNumber",
@@ -86,9 +86,9 @@
     },
     "checkver": {
         "url": "https://mirrors.tuna.tsinghua.edu.cn/github-release/be5invis/Sarasa-Gothic/LatestRelease/",
-        "regex": "Sarasa-TTC-([\\d.]+)\\.zip"
+        "regex": "Sarasa-TTC-([\\d.]+)\\.7z"
     },
     "autoupdate": {
-        "url": "https://mirrors.tuna.tsinghua.edu.cn/github-release/be5invis/Sarasa-Gothic/LatestRelease/Sarasa-TTC-$version.zip"
+        "url": "https://mirrors.tuna.tsinghua.edu.cn/github-release/be5invis/Sarasa-Gothic/LatestRelease/Sarasa-TTC-$version.7z"
     }
 }
