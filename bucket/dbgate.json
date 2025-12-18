@@ -1,10 +1,10 @@
 {
-    "version": "6.7.3",
+    "version": "6.8.0",
     "description": "DbGate - The smartest (no)SQL database client",
     "license": "MIT",
     "homepage": "https://github.com/dbgate/dbgate",
-    "url": "https://github.com/dbgate/dbgate/releases/download/v6.7.3/dbgate-windows-latest.zip",
-    "hash": "abc4b45b9a920d9e42c3ee05f417d38abb3b78595bc5f98a9eb364a431d7c2b4",
+    "url": "https://github.com/dbgate/dbgate/releases/download/v6.8.0/dbgate-windows-latest.zip",
+    "hash": "d1000b2adf4e23371b9c316ff42bcfdfc92d3ca0d62a552ffe90b73a2dfc1870",
     "bin": "dbgate.exe",
     "shortcuts": [
         [
