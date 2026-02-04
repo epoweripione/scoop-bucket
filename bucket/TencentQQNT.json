@@ -1,18 +1,18 @@
 {
-    "homepage": "https://im.qq.com/pcqq/index.shtml",
+    "homepage": "https://im.qq.com/index/#/windows",
     "description": "QQ built with QQNT by Tencent",
     "license": "Commercial",
     "version": "9.9.26_260116",
-    "url": "https://dldir1.qq.com/qqfile/qq/QQNT/Windows/QQ_9.9.26_260116_x64_01.exe",
+    "url": "https://dldir1v6.qq.com/qqfile/qq/QQNT/Windows/QQ_9.9.26_260116_x64_01.exe",
     "hash": "2297b1deacd8481cd259717dce1431168bc660d737722552a8a64d36b5cbe738",
     "installer": {
         "script": "Start-Process -FilePath \"$dir\\$fname\" -Verb RunAs | Wait-Process"
     },
     "checkver": {
-        "url": "https://cdn-go.cn/qq-web/im.qq.com_new/latest/rainbow/windowsConfig.js",
-        "regex": "QQNT/(?<revision>[\\d\\w]+)/QQ_(?<version>[\\d._\\-]+)_x64(?<vernum>[\\d\\w_\\-]*)\\.exe"
+        "url": "https://cdn-go.cn/qq-web/im.qq.com_new/latest/rainbow/pcConfig.json",
+        "regex": "QQNT/Windows/QQ_(?<version>[\\d._\\-]+)_x64(?<vernum>[\\d\\w_\\-]*)\\.exe"
     },
     "autoupdate": {
-        "url": "https://dldir1.qq.com/qqfile/qq/QQNT/$matchRevision/QQ_$version_x64$matchVernum.exe"
+        "url": "https://dldir1v6.qq.com/qqfile/qq/QQNT/Windows/QQ_$version_x64$matchVernum.exe"
     }
 }
