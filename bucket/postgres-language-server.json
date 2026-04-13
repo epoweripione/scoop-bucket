@@ -1,10 +1,10 @@
 {
-    "version": "0.23.0",
+    "version": "0.24.0",
     "description": "A Language Server for Postgres",
     "license": "MIT",
     "homepage": "https://github.com/supabase-community/postgres-language-server",
-    "url": "https://github.com/supabase-community/postgres-language-server/releases/download/0.23.0/postgres-language-server_x86_64-pc-windows-msvc.exe",
-    "hash": "b0ee27ca13196766a6ef2d3467bb78931c4f2de59d954e11b111d9072e1d3ff7",
+    "url": "https://github.com/supabase-community/postgres-language-server/releases/download/0.24.0/postgres-language-server_x86_64-pc-windows-msvc.exe",
+    "hash": "6e9dfd69ddddf683fe5af6f3288cfa3f48f58b377471383b655a87e3148481bd",
     "architecture": {
         "64bit": {
             "pre_install": "Rename-Item \"$dir\\postgres-language-server_x86_64-pc-windows-msvc.exe\" \"$dir\\postgres-language-server.exe\""
