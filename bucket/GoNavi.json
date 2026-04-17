@@ -1,0 +1,35 @@
+{
+    "version": "0.6.8",
+    "description": "GoNavi - A Modern Lightweight Database Client",
+    "license": "Apache-2.0",
+    "homepage": "https://github.com/Syngnat/GoNavi",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/Syngnat/GoNavi/releases/download/v0.6.8/GoNavi-0.6.8-Windows-Amd64.exe",
+            "hash": "2c2168d81a7e94543c86f58bc79e86fb641c00653f5321487304e244bcf08881"
+        },
+        "arm64": {
+            "url": "https://github.com/Syngnat/GoNavi/releases/download/v0.6.8/GoNavi-0.6.8-Windows-Arm64.exe",
+            "hash": "63fcf5af01a28138e72ee64cc002f86d793d028b89b572e285d1ff1e8aa2f75c"
+        }
+    },
+    "pre_install": "Get-ChildItem $dir -Filter 'GoNavi-*.exe' | Rename-Item -NewName { $_.Name -replace 'GoNavi-.*-Windows-(Amd64|Arm64).exe', 'GoNavi.exe' } -ErrorAction SilentlyContinue",
+    "bin": "GoNavi.exe",
+    "shortcuts": [
+        [
+            "GoNavi.exe",
+            "GoNavi"
+        ]
+    ],
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/Syngnat/GoNavi/releases/download/v$version/GoNavi-$version-Windows-Amd64.exe"
+            },
+            "arm64": {
+                "url": "https://github.com/Syngnat/GoNavi/releases/download/v$version/GoNavi-$version-Windows-Arm64.exe"
+            }
+        }
+    }
+}
