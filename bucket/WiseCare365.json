@@ -1,12 +1,12 @@
 {
-    "version": "7.3.5.722",
+    "version": "8.0.1.730",
     "description": "PC Cleaning and Speed up Tool",
     "license": "https://www.wisecleaner.com",
     "homepage": "https://www.wisecleaner.com",
     "architecture": {
         "64bit": {
-            "url": "https://downloads.wisecleaner.com/soft/WiseCare365_7.3.5.722.zip",
-            "hash": "c26ae635c1d71d877d2ec38e3836e8ba0ac9cc3a7bf5cf5d8c478c719d69bb9b",
+            "url": "https://downloads.wisecleaner.com/soft/WiseCare365_8.0.1.730.zip",
+            "hash": "1aea4743333dfff30ecc8ba939028bdbd390f0704bc08d1ada4743f9f9996ddb",
             "extract_dir": "Wise Care 365"
         }
     },
