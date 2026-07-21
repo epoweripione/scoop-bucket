@@ -2,17 +2,17 @@
     "homepage": "https://im.qq.com/index/#/windows",
     "description": "QQ built with QQNT by Tencent",
     "license": "Commercial",
-    "version": "9.9.31_260528",
-    "url": "https://qqdl.gtimg.cn/qqfile/QQNT/9.9.31/release/092069d7/QQ_9.9.31_260528_x64_01.exe",
-    "hash": "0beb5cb4ff776cba822caa0abadbd53f5892f12628a86dabea1b372c82c086bc",
+    "version": "9.9.32_260716",
+    "url": "https://qqdl.gtimg.cn/qqfile/QQNT/9.9.32/release/9d4083e2/QQ_9.9.32_260716_x64_01.exe",
+    "hash": "685c989145381d9bc849948b836270111a8b6b8cebf2068ff158ac9d2324bc44",
     "installer": {
         "script": "Start-Process -FilePath \"$dir\\$fname\" -Verb RunAs | Wait-Process"
     },
     "checkver": {
-        "url": "https://qq-web.cdn-go.cn/im.qq.com_new/latest/rainbow/pcConfig.json",
-        "regex": "QQNTV2/(?<vermajor>[\\d.]+)/release/(?<revision>[\\d\\w_\\-]+)/QQ_(?<version>[\\d._\\-]+)_x64(?<vernum>[\\d\\w_\\-]*)\\.exe"
+        "url": "https://cdn-go.cn/qq-web/im.qq.com_new/latest/rainbow/pcConfig.json",
+        "regex": "QQNT/(?<vermajor>[\\d.]+)/release/(?<revision>[\\d\\w_\\-]+)/QQ_(?<version>[\\d._\\-]+)_x64(?<vernum>[\\d\\w_\\-]*)\\.exe"
     },
     "autoupdate": {
-        "url": "https://qqdl.gtimg.cn/qqfile/QQNTV2/$matchVermajor/release/$matchRevision/QQ_$version_x64$matchVernum.exe"
+        "url": "https://qqdl.gtimg.cn/qqfile/QQNT/$matchVermajor/release/$matchRevision/QQ_$version_x64$matchVernum.exe"
     }
 }
