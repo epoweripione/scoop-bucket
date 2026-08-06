@@ -1,12 +1,12 @@
 {
-    "version": "138.0.7204.303",
+    "version": "151.0.7922.72",
     "description": "Chromium fork for linux named after radioactive element No. 90.",
     "license": "GNU General Public License v3.0",
     "homepage": "https://alex313031.blogspot.com/",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/Alex313031/Thorium-Win/releases/download/M138.0.7204.303/Thorium_SSE3_138.0.7204.303.zip",
-            "hash": "931468563186c4fb1d0f4f835a5b1399be18c3d1c399d7f78fb02d4f1b1a23a8"
+            "url": "https://github.com/gz83/thorium/releases/download/M151.0.7922.72/Thorium_SSE3_151.0.7922.72.zip",
+            "hash": "a688fee92089e3caa427633812479c399c89980360317a36f3cd56cf783f3ae0"
         }
     },
     "bin": [
@@ -23,14 +23,14 @@
     ],
     "persist": "USER_DATA",
     "checkver": {
-        "url": "https://api.github.com/repos/Alex313031/Thorium-Win/releases/latest",
+        "url": "https://api.github.com/repos/gz83/thorium/releases/latest",
         "jsonpath": "$.tag_name",
         "regex": "(?<verprefix>[M]?)(?<version>[\\d]+\\.[\\d]+\\.[\\d]+\\.[\\d]+)"
     },
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/Alex313031/Thorium-Win/releases/download/$matchVerprefix$version/Thorium_SSE3_$version.zip"
+                "url": "https://github.com/gz83/thorium/releases/download/$matchVerprefix$version/Thorium_SSE3_$version.zip"
             }
         }
     }
