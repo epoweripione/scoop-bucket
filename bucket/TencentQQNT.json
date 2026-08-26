@@ -9,10 +9,10 @@
         "script": "Start-Process -FilePath \"$dir\\$fname\" -Verb RunAs | Wait-Process"
     },
     "checkver": {
-        "url": "https://cdn-go.cn/qq-web/im.qq.com_new/latest/rainbow/pcConfig.json",
-        "regex": "QQNT/(?<vermajor>[\\d.]+)/release/(?<revision>[\\d\\w_\\-]+)/QQ_(?<version>[\\d._\\-]+)_x64(?<vernum>[\\d\\w_\\-]*)\\.exe"
+        "url": "https://qq-web.cdn-go.cn/im.qq.com_new/latest/rainbow/pcConfig.json",
+        "regex": "QQNTV2/(?<vermajor>[\\d.]+)/release/(?<revision>[\\d\\w_\\-]+)/QQ_(?<version>[\\d._\\-]+)_x64(?<vernum>[\\d\\w_\\-]*)\\.exe"
     },
     "autoupdate": {
-        "url": "https://qqdl.gtimg.cn/qqfile/QQNT/$matchVermajor/release/$matchRevision/QQ_$version_x64$matchVernum.exe"
+        "url": "https://qqdl.gtimg.cn/qqfile/QQNTV2/$matchVermajor/release/$matchRevision/QQ_$version_x64$matchVernum.exe"
     }
 }
