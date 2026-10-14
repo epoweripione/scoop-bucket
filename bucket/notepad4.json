@@ -26,8 +26,7 @@
         "Notepad4 DarkTheme.ini"
     ],
     "checkver": {
-        "url": "https://api.github.com/repos/zufuliu/notepad4/releases/latest",
-        "jsonpath": "$.tag_name",
+        "github": "https://github.com/zufuliu/notepad4",
         "regex": "v(?<version>[\\d.]+)r(?<revision>[\\d]+)"
     },
     "autoupdate": {
