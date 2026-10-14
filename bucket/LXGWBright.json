@@ -93,8 +93,7 @@
         ]
     },
     "checkver": {
-        "url": "https://api.github.com/repos/lxgw/lxgwbright/releases/latest",
-        "jsonpath": "$.tag_name",
+        "github": "https://github.com/lxgw/lxgwbright",
         "regex": "v([\\d\\w-\\.]+)"
     },
     "autoupdate": {
