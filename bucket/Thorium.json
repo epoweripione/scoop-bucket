@@ -23,8 +23,7 @@
     ],
     "persist": "USER_DATA",
     "checkver": {
-        "url": "https://api.github.com/repos/gz83/thorium/releases/latest",
-        "jsonpath": "$.tag_name",
+        "github": "https://github.com/gz83/thorium",
         "regex": "(?<verprefix>[M]?)(?<version>[\\d]+\\.[\\d]+\\.[\\d]+\\.[\\d]+)"
     },
     "autoupdate": {
