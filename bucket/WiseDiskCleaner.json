@@ -7,7 +7,7 @@
         "64bit": {
             "url": "https://downloads.wisecleaner.com/soft/WDCFree_12.0.0.961.zip",
             "hash": "98754ace8a4e74f148610f45e5df9be093fe4bf293508545d0d7689cf7a59812",
-            "extract_dir": "WDCFree_12.0.0.961\\WDCFree_12.0.0.961(x64)"
+            "extract_dir": "WDCFree_12.0.0.961"
         }
     },
     "bin": "WiseDiskCleaner.exe",
